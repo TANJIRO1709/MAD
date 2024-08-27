@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City8() {
+export function City3() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City8() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCdyR32kXeNROH0PphbiusjGDPQu4INLEEA&s"
+    src="https://variety.com/wp-content/uploads/2024/06/Batman-Costume.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/96/d7/b1.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAKnk-QKggnuDU2z8dF6-eqmMprkf-odeIgw&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://www.goldentours.com/siteimg/products/121817.jpg"
+    src="https://www.coventgarden.london/media/ukebdxda/free-roam-comic-zone-batman-unmasked.jpg?anchor=center&mode=crop&width=952&height=1078&rnd=133628323729270000"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://www.goldentours.com/siteimg/products/121815.jpg"
+    src="https://www.ianvisits.co.uk/articles/wp-content/uploads/2024/06/Batman-Unmasked-exhibition-02.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDyWhSjUG04OHzmDrc7pTnWs0nr2qyX0saNw&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5oWZf53loU2rSWcF1B4_JSAaDCUP5KQPZSA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_65asul19dcZDbQu57jUl1FbEIEZB71JMCQ&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSavR6T5769l4DRrkK0ccwpzuOTDPxTU0Uaew&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://goatoursplanner.com/tours/wp-content/uploads/2022/03/tour1.jpeg"
+    src="https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2024/06/23175531/Batman-Cowls-on-display-%C2%A9-BatmanUnmasked-1024x683.jpg"
     alt="Cover Image"
   />
 </div>
@@ -101,45 +101,45 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "Stonehenge, Windsor Castle, and Bath",
-    description: "As the oldest and largest occupied castle in the world",
+    title: "Batman Unmasked",
+    description: "Experience the cinematic world of Batman like never before, as you take a journey through the Warner Bros",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Opulent State Apartments ",
-    description: "Venture into the opulent State Apartments to discover a statue of Queen Victoria, the Waterloo Chamber, the King’s Rooms, Queen’s Rooms and world-famous masterpieces by the likes of Leonardo da Vinci and Rembrandt.",
+    title:  "DC universe",
+    description: "Archives, discovering a jaw-dropping collection of Batman memorabilia and props.",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-  
-    description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
+    title: "Batman",
+    description: "Explore the Batcave and Batman films (1989-2022) as you enter the world of Gotham City. ",
     header: <Image3/>,
     
   },
   {
-    title: "St George’s Chapel",
+    title: "Robert Pattinson",
     description:
-      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
+      "Venture into the Gotham City universe, arriving at Rogue's Gallery, a dark space devoted to the iconic DC Super-Villains rivalling Batman over the years",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Salisbury Plains ",
-    description: "The great and ancient stone circle of Stonehenge is one of the wonders of the world.",
+    title: "Jim Carrey’s Riddler outfit ",
+    description: "Jim Carrey’s Riddler outfit (1995) and Arnold Schwarzenegger’s Mr. Freeze suit (1997) will also be making an appearance, alongside  Joaquin Phoenix's red suit in “Joker” (2019) and the infamous nurses uniform worn by Heath Ledger in “The Dark Knight.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Neolithic houses",
-    description: "Make sure to visit the award-winning visitor centre where you can see 250 archaelogical objects",
+    
+    description: "Navigating through a series of nine rooms feeling as though you have stepped into the DC universe itself.",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Bath",
-    description: "A UNESCO World Heritage Site, Bath is a stunning Georgian city with exceptional architecture.",
+    title: "The Dark Knight",
+    description: "Fans of all ages will be able to enter the exhibition, navigate nine themed rooms and see Batsuits, Super-Villain suits, props and weapons up close.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },

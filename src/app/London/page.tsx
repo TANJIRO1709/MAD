@@ -1,13 +1,13 @@
 "use client"
 import React from 'react'
-import {BentoGridDemo} from "../City/city1"
-import {City2} from "../City/city2"
-import {City3} from "../City/city3"
-import {City4} from "../City/city4"
-import {City5} from "../City/city5"
-import {City6} from "../City/city6"
-import {City7} from "../City/city7"
-import {City8} from "../City/city8"
+import {BentoGridDemo} from "../components/City/city1"
+import {City2} from "../components/City/city2"
+import {City3} from "../components/City/city3"
+import {City4} from "../components/City/city4"
+import {City5} from "../components/City/city5"
+import {City6} from "../components/City/city6"
+import {City7} from "../components/City/city7"
+import {City8} from "../components/City/city8"
 function C1() {
   return (
     <div>

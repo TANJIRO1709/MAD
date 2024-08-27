@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City7() {
+export function City6() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City7() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/43/d2/99/the-main-entrance-on.jpg?w=1200&h=1200&s=1"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGE1pd9YPA1q0JZb-Tbt5SRefSlvmZ6vc8bQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMpatkD1BYB8l4vuCHFl58BjxgV2uC2xXrPg&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7GKbc_lE9ikjY1-A_V2NNa2bnTFgDyaKH_Q&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9c8WDqvB9uS25dDBihqpQs0cQ86XwGscmFA&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqA0_E16ySPo4CUupMyKOmL7cTjIbD48rSg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgzB8yYzNH8-Vi1X12UTr1j-92WRI5-u4oYw&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2uGGrwPz7yzlVXSQu5l3V---zr1RF3h-7LA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://cdn.londonandpartners.com/asset/38f4d9b97b9626072761627da26fcc9d.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmY4m1kN7rEOu7C19jVOjHYMR-kmwVVMeaQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://c8.alamy.com/comp/2B6Y8A8/england-london-covent-garden-the-royal-opera-house-interior-view-2B6Y8A8.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi9YI_dOPjIpiTI-oqZrLYxXHEt2ym5N4dXQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2020/03/18075117/royal-opera-house-london.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjs64JHJpELEo0lOuznIYB9YzhszubLaRg3g&s"
     alt="Cover Image"
   />
 </div>
@@ -101,46 +101,46 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "What's On at the Royal Opera House",
-    description: "Is the third incarnation of this high culture hub",
+    title: "Secret Tango at Gaucho",
+    description: "As part of Gaucho’s Events, we are proud to present the Secret Tango dinner show at Gaucho Covent Garden.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Royal Ballet and Opera",
-    description: "legends including Maria Callas, Margot Fonteyn, Luciano Pavarotti and Rudolf Nureyev have graced its stage",
+    title: "POP culture",
+    description: "Immerse yourself in a captivating evening where exquisite dishes meet spectacular entertainment.s",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    description: "The Royal Ballet and Opera 2024/25 Season features a programme of bold new productions, alongside returning audience favourites, thrilling debuts and bright new voices.",
+    
+    description: "The evening’s highlight, mesmerising tango performances, perfectly timed as you savour your main course. ",
     header: <Image3/>,
     
   },
   {
-    title: "The Royal Ballet",
+    title: "Fusion",
     description:
-      "A major reconstruction in the 1990s resulted in the creation of a series of beautiful, modern public spaces",
+      "But the night doesn’t end there. Post-show, enjoy the enchanting ambiance of our basement and indulge in our curated selection of cocktails, wine, and sparkling fizz. ",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Marriage of Figaro",
-    description: "The historic grandeur of Covent Garden’s main arena and further improvements are being planned.",
+    title: "Romantic Dance",
+    description: "Witness the world’s most romantic dance, live at Gaucho Covent Garden.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Laugh-out-loud comedy",
-    description: "It’s Figaro’s wedding, and you’re invited to join the Almaviva household for an  day of revelation and scandal.",
+    
+    description: "Indulge in our ‘Steak Night Date Night’ menu, starting with a delightful Valentine’s cocktail, the Cherry Kiss, as your welcome drink. ",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Ballet Tea and Tour",
-    description: "Journey behind the scenes at the Royal Opera House and delve into the iconic history of Swan Lake on a ballet themed tour.",
+    title: "Steak Night Date Night",
+    description: " Immerse yourself in the experience as you savour an epic sharing steak for two, complete with delectable sides and sauces.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];
-

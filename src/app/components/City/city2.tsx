@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City9() {
+export function City2() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City9() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2suVwT4zfldWmkUAlmb-jpN-QQwHfiAICA&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs98VXznCbdcFByn4jJ27Jh40l-ze1766sUw&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://www.prysmian.com/sites/www.prysmian.com/files/2024-01/burj-khalifa-build-02.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSty4g7I8nj4w9tnSFBAnEUkf-c5fwK31Xsw&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3n4e9Kh9rDQ6U3lxRzaLb_xfMF8MWUiEmcg&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvDGx8pvc_odur8ShT0AmNnqY4uB6AYqCqiQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://www.burjkhalifa.ae/images/home-bg.jpg"
+    src="https://www.mbartsandculture.org/wp-content/uploads/2022/01/Image-1-1024x683.jpeg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/489308809.jpg?k=ee48a892e90578f209d5525c0c19a5aaa1fc4132aca7104f2d23c872c9f9901e&o=&hp=1"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYNkPfzHtMr4G9TSMSTpI6c39Ib_V5q2y-g&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8yfKNUZIfC9qe-Vz5SkVWSpPhDONel-ek-A&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDlmJGbRTT-Jp84ulb9geifSIq7jDQezHCWQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://volzero.com/img/news/88071_banner.jpg"
+    src="https://cms.friendswithyou.com/uploads/projects/Amanda-Fletcher-LittleCloud-Sky-1920x1440.jpg"
     alt="Cover Image"
   />
 </div>
@@ -101,45 +101,45 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "The Burj Khalifa",
-    description: "It is the world's tallest structure. ",
+    title: "Little Cloud",
+    description: "A symbol of hope and the unification between humans and the natural world.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Construction of the Burj Khalifa ",
-    description: "The primary structure is reinforced concrete and some of the structural steel for the building originated",
+    title: "Symbol of our mission",
+    description: "Transports the viewer to a peaceful, joyous, and more positive state",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-  
-    description: "The United Arab Emirates government provided Dubai with financial support as the developer",
+    title: "A spiritual essence",
+    description: "we have developed this icon, which reveals that everything in our world has a soul and a purpose ",
     header: <Image3/>,
     
   },
   {
-    title: "Sheikh Khalifa bin Zayed Al Nahyan.",
+    title: "Animist perspective",
     description:
-      "Then president of the United Arab Emirates, Khalifa bin Zayed, organized federal financial support. ",
+      " Bringing this sculpture to life invokes a continuation into the proliferation of healing art objects",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Islamic architecture  ",
-    description: "The Y-shaped tripartite floor geometry is designed to optimise residential and hotel space.",
+    
+    description: "A 30-foot blimp in the Macys Thanksgiving Day Parade, and beyond",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Great Mosque of Samarra",
-    description: "The Burj Khalifa's central core houses all vertical transportation except egress stairs within each of the wings.",
+   
+    description: "Large-scale outdoor sculptures, limited-edition bronze sculptures, limited edition prints, hanging inflatable sculptures,",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Address Downtown Dubai",
-    description: "The structure also features a cladding system which is designed to withstand Dubai's hot summer temperatures.",
+    title: "Little Cloud World",
+    description: "We have created this worldwide symbol that embodies an emotional and personable storyline",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },

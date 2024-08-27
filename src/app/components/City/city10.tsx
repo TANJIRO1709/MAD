@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City16() {
+export function City10() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City16() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://www.dubaimiraclegarden.com/wp-content/uploads/slider/cache/1bbd5f5cab3b0f22aa139b2e825ab62b/FLORAL-CLOCK.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMx1Lx6oj5lNMj37jC0R83uf82ELHm8n6nuQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3aoMj5p2hFDVLP2mRkr-4rYtDTaQYggIqA&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSpGbe88X6Gx8lSsBSxrVO7xiPJHHVncKFg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt672qFzyke--d3zT2dvPkgr1g8kmG2MAWw&s"
+    src="https://media.cntravellerme.com/photos/64adaa3b8065f76731bd4b67/16:9/w_2560%2Cc_limit/Hero-Dubai-Mall-Fashion-Avenue-Dubai-Alamy-R9FRB7.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY2wtvOO5ukAN4eGH5w02Hu-kARSfqycnHRg&s"
+    src="https://platinumlist.net/guide/wp-content/uploads/2023/02/dubai-mall-fountain.webp"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoe22Ml08KkeaXEL3BrOj48-q9cUtjvthVBg&s"
+    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=1200&s=1"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtF-iDv8huHmcWc-0Z7aJBtk3qnCnDWz6gYQ&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiBzYyPYz3g6cej0lBfYrGT8YMRReDyCYyag&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://traveleva-blogs.gumlet.io/wp-content/uploads/2024/03/dubai-miracle-garden.jpg?compress=true&quality=80&w=768&dpr=2.6"
+    src="https://www.visitdubai.com/-/media/gathercontent/poi/t/the-dubai-mall/fallback-image/the-dubai-mall-poi-shutterstock.jpg"
     alt="Cover Image"
   />
 </div>
@@ -101,8 +101,8 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "Stonehenge, Windsor Castle, and Bath",
-    description: "As the oldest and largest occupied castle in the world",
+    title: "Dubai Mall",
+    description: "It is the largest mall in the world by total land area and the 26th-largest shopping mall in the world",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },

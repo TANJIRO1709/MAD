@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City6() {
+export function City11() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City6() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGE1pd9YPA1q0JZb-Tbt5SRefSlvmZ6vc8bQ&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehjH62DbEtmEsyK2MpAKVGTF-K2Lw1QvgNA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7GKbc_lE9ikjY1-A_V2NNa2bnTFgDyaKH_Q&s"
+    src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/457389536.jpg?k=1b5b93930a67d2372178da9df3c090ec47fb1f5622f5664dde18c4362f31b355&o=&hp=1"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqA0_E16ySPo4CUupMyKOmL7cTjIbD48rSg&s"
+    src="https://img.mensxp.com/media/content/2024/Jan/3-InstagramBurj-Al-Arab-_65a258e5e4d5f.jpeg?w=720&h=1280&cc=1"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2uGGrwPz7yzlVXSQu5l3V---zr1RF3h-7LA&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid2C9KrGf1yV77dHtE8OJet5IPi1sE4fN3w&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmY4m1kN7rEOu7C19jVOjHYMR-kmwVVMeaQ&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwzJxfiRJRncZQ4h-mm83LEXIt9kpu0IZ0sA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi9YI_dOPjIpiTI-oqZrLYxXHEt2ym5N4dXQ&s"
+    src="https://www.kayak.co.in/rimg/himg/74/05/e4/leonardo-12863-177478294-689353.jpg?width=968&height=607&crop=true"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjs64JHJpELEo0lOuznIYB9YzhszubLaRg3g&s"
+    src="https://i0.wp.com/dorsiatravel.com/wp-content/uploads/2023/09/22-05-04_BurjalArab-142.jpg?ssl=1"
     alt="Cover Image"
   />
 </div>
@@ -101,45 +101,45 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "Secret Tango at Gaucho",
-    description: "As part of Gaucho’s Events, we are proud to present the Secret Tango dinner show at Gaucho Covent Garden.",
+    title: "Stonehenge, Windsor Castle, and Bath",
+    description: "As the oldest and largest occupied castle in the world",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "POP culture",
-    description: "Immerse yourself in a captivating evening where exquisite dishes meet spectacular entertainment.s",
+    title: "Opulent State Apartments ",
+    description: "Venture into the opulent State Apartments to discover a statue of Queen Victoria, the Waterloo Chamber, the King’s Rooms, Queen’s Rooms and world-famous masterpieces by the likes of Leonardo da Vinci and Rembrandt.",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    
-    description: "The evening’s highlight, mesmerising tango performances, perfectly timed as you savour your main course. ",
+  
+    description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
     header: <Image3/>,
     
   },
   {
-    title: "Fusion",
+    title: "St George’s Chapel",
     description:
-      "But the night doesn’t end there. Post-show, enjoy the enchanting ambiance of our basement and indulge in our curated selection of cocktails, wine, and sparkling fizz. ",
+      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Romantic Dance",
-    description: "Witness the world’s most romantic dance, live at Gaucho Covent Garden.",
+    title: "Salisbury Plains ",
+    description: "The great and ancient stone circle of Stonehenge is one of the wonders of the world.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    
-    description: "Indulge in our ‘Steak Night Date Night’ menu, starting with a delightful Valentine’s cocktail, the Cherry Kiss, as your welcome drink. ",
+    title: "Neolithic houses",
+    description: "Make sure to visit the award-winning visitor centre where you can see 250 archaelogical objects",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Steak Night Date Night",
-    description: " Immerse yourself in the experience as you savour an epic sharing steak for two, complete with delectable sides and sauces.",
+    title: "Bath",
+    description: "A UNESCO World Heritage Site, Bath is a stunning Georgian city with exceptional architecture.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },

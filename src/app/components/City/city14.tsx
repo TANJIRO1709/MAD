@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City5() {
+export function City14() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City5() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://m.media-amazon.com/images/I/51YEVMHL+0L._AC_UF894,1000_QL80_.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZfW3DoJ2Kxh84mmINtHMRcwhJ4IFbm19Wg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://i.ytimg.com/vi/SubkOvycb6s/sddefault.jpg"
+    src="https://miro.medium.com/v2/resize:fit:4096/1*_1cR7HkMXwXuNgIB8DIXdA.jpeg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://images.squarespace-cdn.com/content/v1/590eeff5b8a79b2147a783be/7e06e2f4-fb05-490c-b1c0-003432d4fb60/WOLF.jpeg"
+    src="https://i0.wp.com/picjumbo.com/wp-content/uploads/standing-on-top-of-the-dubai-frame-glass-floor-free-photo.jpg?w=2210&quality=70"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://i.ytimg.com/vi/EcyO849T1ok/hqdefault.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3UG3psF5Lr-9GK-t2XsPY3jko530CRUEpw&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiNeu4JrQZRNTBzGUV03CxLqqFrFApDLhVHw&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1u9t6tXIzHquIrHMzWQyAz1BTEVIGLTFlg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFTsKX7tEkR9hiLFAHgfg7VmL17cEpfdfxYA&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkWQJyKS2ZJi5bRiiswEXgVMVHfHsGzXrRWA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKJLM32ZLKQoVivYtqayRG9uVR08r5m2dlA&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfJkfljIM542HOgbE9hjDNj4B9Erie4oUmgA&s"
     alt="Cover Image"
   />
 </div>
@@ -101,44 +101,45 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "WOLF pop-up",
-    description: "Wolf & Badger launched in February 2010 [2] and was named one of Britain's Best Boutiques in the April 2010 edition of British Vogue.",
+    title: "Stonehenge, Windsor Castle, and Bath",
+    description: "As the oldest and largest occupied castle in the world",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Oxford Street",
-    description: "Wolf & Badger continued to grow and in August 2010 opened a pop up store in Selfridges department store on Oxford Street.",
+    title: "Opulent State Apartments ",
+    description: "Venture into the opulent State Apartments to discover a statue of Queen Victoria, the Waterloo Chamber, the King’s Rooms, Queen’s Rooms and world-famous masterpieces by the likes of Leonardo da Vinci and Rembrandt.",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    description: "In 2014, Wolf & Badger extended its flagship store to include new juice bar Raw Press. ",
+  
+    description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
     header: <Image3/>,
     
   },
   {
-    title: " Wolf & Badger",
+    title: "St George’s Chapel",
     description:
-      "2018 Wolf & Badger announced its further expansion into a new 12,000 sqft flagship store in Kings Cross, London.",
+      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    
-    description: "In 2022, the business launched its first West Coast USA store on Melrose Avenue in West Hollywood, Los Angeles.",
+    title: "Salisbury Plains ",
+    description: "The great and ancient stone circle of Stonehenge is one of the wonders of the world.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-   
-    description: "In early 2024, the London store relocated to a new location in the West End.[",
+    title: "Neolithic houses",
+    description: "Make sure to visit the award-winning visitor centre where you can see 250 archaelogical objects",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Certified B Corporation",
-    description: " Later that year, Wolf & Badger was named by Drapers as Best Multi-Channel Retailer Under £25m.[",
+    title: "Bath",
+    description: "A UNESCO World Heritage Site, Bath is a stunning Georgian city with exceptional architecture.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },

@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City15() {
+export function City9() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City15() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkOi8fJcIKJN-HTTZjSQ4_K-ZR_CunvNYwaw&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk2suVwT4zfldWmkUAlmb-jpN-QQwHfiAICA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://petnahafricatours.com/wp-content/uploads/2023/08/dubai-aqaurium.jpg"
+    src="https://www.prysmian.com/sites/www.prysmian.com/files/2024-01/burj-khalifa-build-02.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0d/09/f2/b7.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3n4e9Kh9rDQ6U3lxRzaLb_xfMF8MWUiEmcg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://da28ojrjakn6f.cloudfront.net/tickets/4606/NEW/img_1709534792_1709534829__aq1.jpg?v=1.1.0"
+    src="https://www.burjkhalifa.ae/images/home-bg.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/a5/18/1f.jpg"
+    src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/489308809.jpg?k=ee48a892e90578f209d5525c0c19a5aaa1fc4132aca7104f2d23c872c9f9901e&o=&hp=1"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://i.ytimg.com/vi/0j-bWuG5utM/maxresdefault.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8yfKNUZIfC9qe-Vz5SkVWSpPhDONel-ek-A&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://da28ojrjakn6f.cloudfront.net/tickets/4606/NEW/img_1647248016_1647249468___att2626.jpg?v=1.1.0"
+    src="https://volzero.com/img/news/88071_banner.jpg"
     alt="Cover Image"
   />
 </div>
@@ -101,45 +101,45 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "Stonehenge, Windsor Castle, and Bath",
-    description: "As the oldest and largest occupied castle in the world",
+    title: "The Burj Khalifa",
+    description: "It is the world's tallest structure. ",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Opulent State Apartments ",
-    description: "Venture into the opulent State Apartments to discover a statue of Queen Victoria, the Waterloo Chamber, the King’s Rooms, Queen’s Rooms and world-famous masterpieces by the likes of Leonardo da Vinci and Rembrandt.",
+    title: "Construction of the Burj Khalifa ",
+    description: "The primary structure is reinforced concrete and some of the structural steel for the building originated",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
   
-    description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
+    description: "The United Arab Emirates government provided Dubai with financial support as the developer",
     header: <Image3/>,
     
   },
   {
-    title: "St George’s Chapel",
+    title: "Sheikh Khalifa bin Zayed Al Nahyan.",
     description:
-      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
+      "Then president of the United Arab Emirates, Khalifa bin Zayed, organized federal financial support. ",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Salisbury Plains ",
-    description: "The great and ancient stone circle of Stonehenge is one of the wonders of the world.",
+    title: "Islamic architecture  ",
+    description: "The Y-shaped tripartite floor geometry is designed to optimise residential and hotel space.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Neolithic houses",
-    description: "Make sure to visit the award-winning visitor centre where you can see 250 archaelogical objects",
+    title: "Great Mosque of Samarra",
+    description: "The Burj Khalifa's central core houses all vertical transportation except egress stairs within each of the wings.",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Bath",
-    description: "A UNESCO World Heritage Site, Bath is a stunning Georgian city with exceptional architecture.",
+    title: "The Address Downtown Dubai",
+    description: "The structure also features a cladding system which is designed to withstand Dubai's hot summer temperatures.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },

@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City14() {
+export function City15() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City14() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZfW3DoJ2Kxh84mmINtHMRcwhJ4IFbm19Wg&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkOi8fJcIKJN-HTTZjSQ4_K-ZR_CunvNYwaw&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://miro.medium.com/v2/resize:fit:4096/1*_1cR7HkMXwXuNgIB8DIXdA.jpeg"
+    src="https://petnahafricatours.com/wp-content/uploads/2023/08/dubai-aqaurium.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://i0.wp.com/picjumbo.com/wp-content/uploads/standing-on-top-of-the-dubai-frame-glass-floor-free-photo.jpg?w=2210&quality=70"
+    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0d/09/f2/b7.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3UG3psF5Lr-9GK-t2XsPY3jko530CRUEpw&s"
+    src="https://da28ojrjakn6f.cloudfront.net/tickets/4606/NEW/img_1709534792_1709534829__aq1.jpg?v=1.1.0"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1u9t6tXIzHquIrHMzWQyAz1BTEVIGLTFlg&s"
+    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/a5/18/1f.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkWQJyKS2ZJi5bRiiswEXgVMVHfHsGzXrRWA&s"
+    src="https://i.ytimg.com/vi/0j-bWuG5utM/maxresdefault.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfJkfljIM542HOgbE9hjDNj4B9Erie4oUmgA&s"
+    src="https://da28ojrjakn6f.cloudfront.net/tickets/4606/NEW/img_1647248016_1647249468___att2626.jpg?v=1.1.0"
     alt="Cover Image"
   />
 </div>
