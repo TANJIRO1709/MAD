@@ -2,16 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: Inter, sans-serif;
+  }
+  .container{
     background-image: url('/pietro-de-grandi-y5vLKnZr6Zg-unsplash.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    height: 100dvh;
     scroll-behavior: smooth;
-    overflow:hidden;
+    overflow-x: hidden;
   }
-  
   .sulphur-point-regular {
     font-family: "Sulphur Point", sans-serif;
     font-weight: 400;
@@ -21,47 +21,112 @@ body {
   .header {
     display: flex;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 0 0.5rem 0 0.5rem;
     background-color:#ffffff00;
+    align-items: center;
     color: white;
-    justify-content: space-between;
+    justify-content:space-between;
     border: 1px solid #ffffff00;
   }
   
   .logo{
     display:flex;
-    font-family:sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    font-style: normal;
-  }
-  .logo img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-  }
-  .nav-links {
-    display:flex;
     align-items: center;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    gap: 2rem;
-    font-family:Arial, Helvetica, sans-serif;
-  }
-  
-  .nav-links .navopt:hover{
-    text-decoration: underline;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-  }
-  
+    gap: 10px;
+    font-size: 1.5rem;
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 700;
+}
+    @media screen and (min-width: 768px) {
+        .logo{
+            font-size: 2rem;
+        }
+        .logo img {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            margin-right: 10px;
+        }
+        .hero h1{
+            font-size: 2rem;
+        }
+        .hero p{
+            font-size: 1rem;
+        }
+        .cta-button{
+            font-size: 1rem;
+            padding: 1rem 1.7rem;
+            background-color: #ffff;
+            color: #000000;
+            border-radius: 100px;
+            cursor: pointer;
+        }
+        .card-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        .header {
+            padding-left:1rem;
+            padding-right:2rem;
+        }
+        .logo{
+            font-size: 2.5rem;
+        }
+        .logo img {
+            width: 60px;
+            height: 60px;
+            position: relative;
+            margin-right: 10px;
+        }
+        .hero h1{
+            font-size: 2.5rem;
+        }
+        .hero p{
+            font-size: 1.3rem;
+        }
+        .cta-button{
+            font-size: 1.5rem;
+            padding: 1rem 1.7rem;
+        }
+    }
+    @media screen and (min-width: 1440px) {
+        .header {
+            padding-left:2rem;
+            padding-right:3rem;
+        }
+        .logo{
+            font-size: 3.5rem;
+        }
+        .logo img {
+            width: 70px;
+            height: 70px;
+            position: relative;
+            margin-right: 10px;
+        }
+        .hero h1{
+            font-size: 3rem;
+        }
+        .hero p{
+            font-size: 1.3rem;
+        }
+        .cta-button{
+            font-size: 1.5rem;
+            padding: 1rem 1.7rem;
+        }
+    }
+
   .au{
     display: flex;
     width: 50px;
     height: 50px;
-    margin-right: 100px;
     gap: 2px;
+    justify-content: center;
+    margin-right: 5%;
   }
   
   .au :hover{
@@ -71,29 +136,30 @@ body {
   
   .hero {
     text-align:left;
-    margin-top: 100px;
-    width:710px;
-    heigh:399px;
+    margin-top: 50px;
+    max-width:90%;
+    height:50%;
     color: white;
     padding: 2%;
-    font-size:30px;
+    font-size:15px;
   }
-  
-  .cta-button {
-    margin-top: 1rem;
-    padding: 1rem 2rem;
-    background-color: #ffff;
-    color: #000000;
-    border-radius: 100px;
-    cursor: pointer;
-    font-size: 1.0rem;
-  }
-  .cta-button:hover{
+  @media screen and (max-width: 768px) {
+    .cta-button {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #ffff;
+        color: #000000;
+        border-radius: 100px;
+        cursor: pointer;
+        font-size: 1rem;
+      }
+      
+}
+  /* .cta-button:hover{
     background-color: #000;
     border: 1px solid #ffff;
     color: #ffff;
-  }
-  
+  } */
   .person-container {
     position: relative;
     display: inline-block;
@@ -126,8 +192,6 @@ body {
     color: #333;
   }
   
-  
-  
   .popup-box a:hover {
     color: #007bff;
   }
@@ -142,10 +206,11 @@ body {
   
   .card-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   
   .card {
@@ -155,7 +220,7 @@ body {
     border-radius: 15px;
     padding: 20px;
     width: 300px;
-    height: 300px;
+    height: 200px;
     text-align: center;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -175,5 +240,72 @@ body {
     transform: translateY(-10px); 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
     background: linear-gradient(to top, #ffffff00, #3E523E);
-  
   }
+  footer {
+    background-color: #3E523E; 
+    padding:10px 1rem;
+    color: #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /* justify-content:space-evenly; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+    text-align: left;
+    margin-top: 2%;
+    height:fit-content;
+}
+.upperfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center; 
+    width: 95%;
+    margin-top: 3%;
+}
+.middlefooter{
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-top: 2%;
+}
+ .footer-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .lowerfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+ }
+ .lowerfooter p{
+    font-size:x-small;
+ }
+.social-icons img{
+    margin: px;
+}
+.footer-links ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 0;
+}
+.footer-links li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.upperfooter2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center; 
+    width: 100%;
+    margin-top: 3%;
+    text-align: left;
+    font-size: small;
+    margin-right:20% ;
+}
