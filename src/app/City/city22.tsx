@@ -100,46 +100,44 @@ const Image7 = () => (
 
 const items = [
   {
-    
-    title: "London Cocktail Week",
-    description: "London Cocktail Week is the world’s leading Cocktail Week",
+    title: "Seven Colored Earths",
+    description: " Located in Chamarel, this natural phenomenon features sand dunes of seven distinct colors, creating a surreal landscape.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Cocktail capital",
-    description: "It is one of the most exciting ways to discover the London bar scene up close and personal",
+    title: "Le Morne Brabant",
+    description: "Offers stunning hiking trails with panoramic views of the island and surrounding turquoise waters.",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Curated Cocktail",
-    description: "Each of the bars we partner with on our Curated Cocktail Tours is hand-picked for excellence and can be viewed in the London Cocktail Week Bar Guide.",
+    title: "Port Louis",
+    description: "Visit Caudan Waterfront, Central Market, and the historic Aapravasi Ghat, a UNESCO World Heritage site.",
     header: <Image3/>,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Signature Cocktails ",
-    description:
-      "For navigation on-the-go during the festival, you'll be given a London Cocktail Week Guidebook with your wristband, which lists out all the bars involved - and will include each bar's Signature Cocktail.  ",
+    title: "Blue Bay Marine Park",
+    description:"A top spot for snorkeling, diving, and glass-bottom boat tours.",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "One-off experiences",
-    description: "Special menus, immersive pop-ups and international take-overs happening all over town",
+    title: "Grand Bassin",
+    description: "A sacred lake and important pilgrimage site for Hindus in Mauritius.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-
-    description: "In 2021, London Cocktail Week was acquired by Pernod Ricard as part of its purchase of The Whisky Exchange.",
+    title: "Eureka House",
+    description: "A beautifully preserved colonial mansion in Moka, offering a glimpse into the island’s colonial past.",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Wristbands ",
-    description: "If all 200 bars sell the 100 wristbands they are given, and there is no limit if they want more, that will put £400,000 directly into bars.",
+    title: "Rochester Falls",
+    description: "Known for its unique rectangular rock formations and serene surroundings.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
