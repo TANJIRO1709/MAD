@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import { Sriracha } from "next/font/google";
 
 export const BentoGrid = ({
   className,
