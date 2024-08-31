@@ -102,7 +102,7 @@ const items = [
   {
     
     title: "Dubai Mall",
-    description: "It is the largest mall in the world by total land area and the 26th-largest shopping mall in the world",
+    description: "It is the area and the 26th-largest shopping mall in the world",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
