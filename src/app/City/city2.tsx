@@ -116,6 +116,7 @@ const items = [
     title: "A spiritual essence",
     description: "we have developed this icon, which reveals that everything in our world has a soul and a purpose ",
     header: <Image3/>,
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     
   },
   {
@@ -126,14 +127,14 @@ const items = [
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    
+    title: "Symbol of our mission",
     description: "A 30-foot blimp in the Macys Thanksgiving Day Parade, and beyond",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-   
-    description: "Large-scale outdoor sculptures, limited-edition bronze sculptures, limited edition prints, hanging inflatable sculptures,",
+    title: "Symbol of our mission",
+    description: "Large-scale outdoor sculptures, limited-edition bronze sculptures, limited edition prints, hanging inflatable sculptures.",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
