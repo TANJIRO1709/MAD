@@ -5,26 +5,30 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
 import Link from "next/link";
 
-export default function ThreeDCardDemo() {
+export default function ThreeDCardDemo({title,imagelink,description}:{
+  title: string;
+  imagelink: string;
+  description: string;
+}) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="bg-gradient-to-b from-black/20 to-[#3E523E] relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[23rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gradient-to-b from-[#1837159d] to-[#feffff81] backdrop-blur-sm relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[23rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
           className="text-xl font-bold text-white dark:text-white"
         >
-          Covent Garden London
+         {title}
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-white text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Covent Garden is a district in London, on the eastern fringes of the West End, between St Martin's Lane and Drury Lane
+          {description}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="https://static1.squarespace.com/static/62015f66f840ef671da14ae7/t/6492626032b36f4ab4776f41/1687315047650/Covent+Garden+007.JPG?format=1500w"
+            src={imagelink}
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

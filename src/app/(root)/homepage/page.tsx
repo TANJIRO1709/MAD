@@ -2,11 +2,13 @@
 import Bglandingpage from "@/app/components/bglandingpage";
 import Carousel from "@/app/components/Carousel";
 import Largescreenfooter from "@/app/components/largescreenfooter";
+// import { AuroraBackground } from "@/app/components/ui/aurora-background";
+// import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function HomePage() {
     return (
-        <div className="container no-scrollbar">
+        <div className=" bg-[url(/pietro-de-grandi-y5vLKnZr6Zg-unsplash.jpg)] container no-scrollbar">
             <Bglandingpage/>
             {/* <Header/>
              <section className="hero">
@@ -29,7 +31,25 @@ export default function HomePage() {
                     <p>Best in class ticket booking system.</p>
                 </div>
             </div> */}
+            {/* <AuroraBackground>
+      <motion.div
+        initial={{ opacity: 0.0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.3,
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
+        className="relative flex flex-col gap-4 items-center justify-center px-4"
+      >
             <Carousel city="Dubai"/>
+            <Carousel city="London"/>
+            <Carousel city="New York"/>
+            <Carousel city="Paris"/>
+            <Carousel city="Tokyo"/>
+      </motion.div>
+      </AuroraBackground> */}
+      <Carousel city="Dubai"/>
             <Carousel city="London"/>
             <Carousel city="New York"/>
             <Carousel city="Paris"/>
@@ -132,6 +152,6 @@ export default function HomePage() {
                      </div> 
                  </div>
             </footer>
-            </div>
+        </div>
     );
 }

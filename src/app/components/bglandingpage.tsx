@@ -4,12 +4,12 @@ import Header from './Header'
 const Bglandingpage = () => {
   return (
     <>
-    <div className='bg-[url("/pietro-de-grandi-y5vLKnZr6Zg-unsplash.jpg")] bg-cover bg-center pb-3'>
+    <div className=' bg-cover bg-center pb-3'>
         <Header/>
              <section className="hero">
                 <h1>It is A Big World Out There, Go Explore.</h1>
                 <p>Discover new attractions and experiences to match your interests and travel style.</p>
-                <button className="cta-button">Book Now</button>
+                <button className="cta-button">Explore</button>
             </section>
             
             <div className="card-container mb-3">
@@ -22,13 +22,13 @@ const Bglandingpage = () => {
                     <p>Our tour guide has 20+ years of experience.</p>
                 </div>
                 <div className="card">
-                    <h3>Easy Bookings</h3>
-                    <p>Best in class ticket booking system.</p>
+                    <h3>Explore Events</h3>
+                    <p>Explore what events can you find in a city. </p>
                 </div>
             </div>
     </div>
-    <div className="line w-full h-1 bg-slate-50">
-            </div>
+    {/* <div className="line w-full h-1 bg-slate-50">
+            </div> */}
     </>
   )
 }
