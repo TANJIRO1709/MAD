@@ -21,7 +21,7 @@ body {
   .header {
     display: flex;
     width: 100%;
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 1rem 0.5rem 0 0.5rem;
     background-color:#ffffff00;
     align-items: center;
     color: white;
@@ -49,13 +49,19 @@ body {
         }
         .hero h1{
             font-size: 2rem;
+            margin-bottom: 10px;
         }
         .hero p{
             font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        .container{
+          padding-right: 1rem;
+          padding-left: 1rem;
         }
         .cta-button{
             font-size: 1rem;
-            padding: 1rem 1.7rem;
+            padding: 0.5rem 1rem;
             background-color: #ffff;
             color: #000000;
             border-radius: 100px;
@@ -90,8 +96,8 @@ body {
             font-size: 1.3rem;
         }
         .cta-button{
-            font-size: 1.5rem;
-            padding: 1rem 1.7rem;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
         }
     }
     @media screen and (min-width: 1440px) {
@@ -118,27 +124,19 @@ body {
             font-size: 1.5rem;
             padding: 1rem 1.7rem;
         }
+        .container{
+          max-width:100em;
+        }
+        .card-container{
+          gap: 50px;
+        }
     }
 
-  .au{
-    display: flex;
-    width: 50px;
-    height: 50px;
-    gap: 2px;
-    justify-content: center;
-    margin-right: 5%;
-  }
-  
-  .au :hover{
-    border: 1px solid #ffff;
-  
-  }
-  
   .hero {
     text-align:left;
     margin-top: 50px;
     max-width:90%;
-    height:50%;
+    height:40%;
     color: white;
     padding: 2%;
     font-size:15px;
@@ -153,63 +151,16 @@ body {
         cursor: pointer;
         font-size: 1rem;
       }
-      
+      .container{
+        padding: 0.5rem;
+      }
 }
-  /* .cta-button:hover{
-    background-color: #000;
-    border: 1px solid #ffff;
-    color: #ffff;
-  } */
-  .person-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .au img {
-    width: 50px;  
-    height: 50px;
-    cursor: pointer;
-    transition: none;  }
-  
-  .popup-box {
-    display: none;
-    position: absolute;
-    top: 110%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    text-align: center;
-    z-index: 1000;
-  }
-  
-  .popup-box a {
-    display: block;
-    margin: 5px 0;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .popup-box a:hover {
-    color: #007bff;
-  }
-  
-  .person-container:hover .popup-box {
-    display: block;
-  }
-  
-  .person-container:hover .person {
-    transform: none;
-  }
-  
   .card-container {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     margin-top: 20px;
   }
   
@@ -241,71 +192,7 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
     background: linear-gradient(to top, #ffffff00, #3E523E);
   }
-  footer {
-    background-color: #3E523E; 
-    padding:10px 1rem;
-    color: #FFFFFF; 
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    /* justify-content:space-evenly; */
-    align-items: center;
-    /* flex-wrap: wrap; */
-    text-align: left;
-    margin-top: 2%;
-    height:fit-content;
-}
-.upperfooter{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-items: center; 
-    width: 95%;
-    margin-top: 3%;
-}
-.middlefooter{
-    width: 100%;
-    height: 2px;
-    background-color: #FFFFFF;
-    margin-top: 2%;
-}
- .footer-logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
- .lowerfooter{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-top: 2%;
- }
- .lowerfooter p{
-    font-size:x-small;
- }
-.social-icons img{
-    margin: px;
-}
-.footer-links ul{
-    list-style: none;
-    text-align: left;
-    margin-left: 0;
-}
-.footer-links li a{
-    color: #FFFFFF;
-    text-decoration: none;
-}
-.upperfooter2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-items: center;
-    align-items: center; 
-    width: 100%;
-    margin-top: 3%;
-    text-align: left;
-    font-size: small;
-    margin-right:20% ;
-}
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }

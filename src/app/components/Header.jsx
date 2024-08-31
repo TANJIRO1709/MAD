@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import DropdownMenuCheckboxes from "./Imagedropdown";
 
 export default function Header() {
   return (
@@ -13,15 +14,7 @@ export default function Header() {
         />
         <p className="">Make A Dream</p>
       </div>
-        <div className="au">
-        <div className="person-container">
-        <img src="/Person.png"></img>
-            <div className="popup-box">
-            <a href="#login">Login</a>
-            <a href="#signup">Signup</a>
-        </div>
-        </div>
-        </div>
+        <DropdownMenuCheckboxes/>
     </header>
   );
 }

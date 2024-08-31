@@ -47,3 +47,19 @@ export async function getLoggedInUser() {
         console.error('Error', error);
     }
   }
+
+  export async function signin({email,password}:signInProps) {
+    try {
+      const { account } = await createAdminClient();
+      const users = await account.createEmailPasswordSession(email,password);
+      cookies().set("appwrite-session", users.secret, {
+        path: "/",
+        httpOnly: true,
+        sameSite: "strict",
+        secure: true,
+      });
+      return parseStringify(users);
+    } catch (error) {
+      console.error('Error', error);
+  }
+  }
