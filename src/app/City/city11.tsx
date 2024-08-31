@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
+import {BentoGridItem , BentoGrid} from "../components/ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -95,7 +95,6 @@ const Image7 = () => (
     alt="Cover Image"
   />
 </div>
-
 );
 
 const items = [
@@ -112,7 +111,7 @@ const items = [
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
-  { title: "St George’s Chapel"
+  { title: "St George’s Chapel",
     description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
     header: <Image3/>,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
