@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City16() {
+export function City18() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City16() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://www.dubaimiraclegarden.com/wp-content/uploads/slider/cache/1bbd5f5cab3b0f22aa139b2e825ab62b/FLORAL-CLOCK.jpg"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg/640px-Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3aoMj5p2hFDVLP2mRkr-4rYtDTaQYggIqA&s"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sistina-interno.jpg/640px-Sistina-interno.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt672qFzyke--d3zT2dvPkgr1g8kmG2MAWw&s"
+    src="https://www.travelandleisure.com/thmb/CKxA_iBAtx1zYw_7EevV4cuxgH0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/trevi-fountain-rome-italy-TREVI0217-4b6f7385c7f0436ba3d5fa2c061a1791.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY2wtvOO5ukAN4eGH5w02Hu-kARSfqycnHRg&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG-NQzkyXqB-mMXvFznwB3Xnc6kIIn6HDrgQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoe22Ml08KkeaXEL3BrOj48-q9cUtjvthVBg&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEI6LA9tisJAg5McgVqRNuQuJBOEfjnt2kCw&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtF-iDv8huHmcWc-0Z7aJBtk3qnCnDWz6gYQ&s"
+    src="https://www.archeoroma.org/wp-content/uploads/2020/02/piazza-navona-roma-558x400.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://traveleva-blogs.gumlet.io/wp-content/uploads/2024/03/dubai-miracle-garden.jpg?compress=true&quality=80&w=768&dpr=2.6"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjcL_zWzycjmykgvHh3SXKRoW7gjiCnYhv4Q&s"
     alt="Cover Image"
   />
 </div>
@@ -101,45 +101,44 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "Stonehenge, Windsor Castle, and Bath",
-    description: "As the oldest and largest occupied castle in the world",
+    title: "St. Peter's Basilica",
+    description: "The largest church in the world, known for its stunning Renaissance architecture and Michelangelo's Pietà.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Opulent State Apartments ",
-    description: "Venture into the opulent State Apartments to discover a statue of Queen Victoria, the Waterloo Chamber, the King’s Rooms, Queen’s Rooms and world-famous masterpieces by the likes of Leonardo da Vinci and Rembrandt.",
+    title: "Sistine Chapel",
+    description: "Famous for Michelangelo's ceiling frescoes, including The Creation of Adam.",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-  
-    description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
+    title: "Trevi Fountain",
+    description: "A beautiful Baroque fountain and one of Rome's most famous landmarks.",
     header: <Image3/>,
-    
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "St George’s Chapel",
-    description:
-      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
+    title: "Colosseum",
+    description: "The iconic symbol of Rome, the Colosseum is an ancient amphitheater that hosted gladiatorial contests and public spectacles.",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Salisbury Plains ",
-    description: "The great and ancient stone circle of Stonehenge is one of the wonders of the world.",
+    title: " Pantheon",
+    description: "One of the best-preserved ancient Roman buildings, the Pantheon was originally built as a temple to all the gods.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Neolithic houses",
-    description: "Make sure to visit the award-winning visitor centre where you can see 250 archaelogical objects",
+    title: "Piazza Navona",
+    description: "A lively square that was once a Roman stadium, Piazza Navona is now known for its Baroque architecture, including the Fountain of the Four Rivers by Bernini.",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Bath",
-    description: "A UNESCO World Heritage Site, Bath is a stunning Georgian city with exceptional architecture.",
+    title: "Spanish Steps",
+    description: "A monumental staircase of 135 steps, the Spanish Steps connect the Piazza di Spagna with the Trinità dei Monti church.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },

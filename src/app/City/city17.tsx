@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City16() {
+export function City17() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,8 +31,8 @@ export function City16() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://www.dubaimiraclegarden.com/wp-content/uploads/slider/cache/1bbd5f5cab3b0f22aa139b2e825ab62b/FLORAL-CLOCK.jpg"
-    className="absolute inset-0 w-full h-full object-cover"
+    src="https://images.unsplash.com/photo-1570036969725-133e9943d646?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFnaGlhJTIwc29waGlhfGVufDB8fDB8fHww"
+    className="object-cover w-full"
     alt="Cover Image"
   />
 </div>
@@ -41,8 +41,8 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3aoMj5p2hFDVLP2mRkr-4rYtDTaQYggIqA&s"
-    className="absolute inset-0 w-full h-full object-cover"
+    src="https://images.unsplash.com/photo-1629140778196-cfec1a75f777?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dG9wa2FwaSUyMHBhbGFjZXxlbnwwfHwwfHx8MA%3D%3D"
+    className="object-cover w-full"
     alt="Cover Image"
   />
 </div>
@@ -51,8 +51,8 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt672qFzyke--d3zT2dvPkgr1g8kmG2MAWw&s"
-    className="absolute inset-0 w-full h-full object-cover"
+    src="https://images.unsplash.com/photo-1580139644189-14a08f064717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ymx1ZSUyMG1vc3F1ZXxlbnwwfHwwfHx8MA%3D%3D"
+    className="object-cover w-full"
     alt="Cover Image"
   />
 </div>
@@ -61,8 +61,8 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY2wtvOO5ukAN4eGH5w02Hu-kARSfqycnHRg&s"
-    className="absolute inset-0 w-full h-full object-cover"
+    src="https://images.unsplash.com/photo-1691324745671-5492378d1695?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym9zcGhvcnVzJTIwY3J1aXNlfGVufDB8fDB8fHww"
+    className="object-cover w-full"
     alt="background"
   />
 </div>
@@ -71,8 +71,8 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoe22Ml08KkeaXEL3BrOj48-q9cUtjvthVBg&s"
-    className="absolute inset-0 w-full h-full object-cover"
+    src="https://plus.unsplash.com/premium_photo-1680185461539-0ed8352312a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByaW5jZXNzJTIwaXNsYW5kcyUyMGlzdGFuYnVsfGVufDB8fDB8fHww"
+    className="object-cover w-full"
     alt="Cover Image"
   />
 </div>
@@ -80,8 +80,8 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtF-iDv8huHmcWc-0Z7aJBtk3qnCnDWz6gYQ&s"
-    className="absolute inset-0 w-full h-full object-cover"
+    src="https://images.unsplash.com/photo-1687861349516-7a523b16120b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsYXRhJTIwdG93ZXJ8ZW58MHx8MHx8fDA%3D"
+    className="object-cover w-full"
     alt="Cover Image"
   />
 </div>
@@ -90,8 +90,8 @@ const Image6 = () => (
 const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    className="absolute inset-0 w-full h-full object-cover"
-    src="https://traveleva-blogs.gumlet.io/wp-content/uploads/2024/03/dubai-miracle-garden.jpg?compress=true&quality=80&w=768&dpr=2.6"
+    className="object-cover w-full"
+    src="https://images.unsplash.com/photo-1710924447482-94a28e497e6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFzaWxpY2ElMjBjaXN0ZXJufGVufDB8fDB8fHww"
     alt="Cover Image"
   />
 </div>

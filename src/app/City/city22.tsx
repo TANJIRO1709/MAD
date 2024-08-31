@@ -11,7 +11,7 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-export function City4() {
+export function City22() {
   return (
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
@@ -31,7 +31,7 @@ export function City4() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://tastecocktails.com/wp-content/uploads/2015/10/IMG_1163-846x635.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK3RF8ooUlfewsTtvgwKx_R8vtvVM8yksoRg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSGnntjo8OM2763-RayWBUqhF47K3DoSPkgw&s"
+    src="https://mauritiusattractions.com/slir/w854/content/images/guide/i-336/le-morne-brabant%20(1).jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGeF6gXSHPNa4dqcSBgxqpfYkkK9moSQ-gYw&s"
+    src="https://cdn.britannica.com/09/93509-050-4F6AD522/waterfront-tourists-Mauritius-Port-Louis.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33cz0HnZKs-7H4f0XwGhC6PLrMJAcEOS5MA&s"
+    src="https://mauritiusexplored.com/wp-content/uploads/2018/10/Blue-bay-in-Mauritius-.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://live.staticflickr.com/65535/51220449631_62db3b3210_c.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8_E4FAPOR7fC3I6l3hOU7CRCDOUjuAjxrGQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-tlp1DWLPKfdgq5ubQuzb8jMU4GYhJV5QKA&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT2YRaXgblkn_WUA1XqRxQ9Gdq8TemsOLXCQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://images.squarespace-cdn.com/content/v1/53b3016de4b0d07e926c39c1/1504267964665-5OLTUUK87E5E3BVHZXFB/london-cocktail-week.jpg"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Rochester_falls.jpg/1200px-Rochester_falls.jpg"
     alt="Cover Image"
   />
 </div>
