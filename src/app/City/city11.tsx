@@ -112,16 +112,14 @@ const items = [
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
-  {
-  
+  { title: "St George’s Chapel"
     description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
     header: <Image3/>,
-    
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "St George’s Chapel",
-    description:
-      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
+    description: "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
