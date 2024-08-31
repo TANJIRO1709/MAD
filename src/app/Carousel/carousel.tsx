@@ -1,9 +1,8 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image from "next/image";
 import { logos } from "../config/content/gallery";
 //gallery component
 const Gallery = () => {
@@ -30,21 +29,18 @@ const Gallery = () => {
 
   return (
     <>
-      <div className='flex justify-center flex-wrap'>
-                <div className=' border-solid border-2 pt-2 pb-2 w-32 text-center m-10 rounded-3xl' style={{ borderColor: "#8A67B5" }}>Gallery</div>
-            </div> 
-      <div className=" w-full overflow-hidden py-8 px-5 md:px-10">
+      <div className=" w-[90%] h-20 overflow-hidden mx-auto">
         <Slider {...settings}>
           {logos.map((logo, index) => (
-            <div key={index} className="container flex">
+            <div key={index} className="mx-auto pt-3">
               <img
                 src={logo}
                 alt="logo"
-                width={600}
-                height={420}
+                width={50}
+                height={50}
                 loading="eager"
-                className="h-14 w-auto sm:h-24 m-auto"
-              style={{height: "420px", width:"300px"}}/>
+                className=""
+              />
             </div>
           ))}
         </Slider>
@@ -52,4 +48,5 @@ const Gallery = () => {
     </>
   );
 };
+
 export default Gallery;

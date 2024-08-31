@@ -1,4 +1,5 @@
 // src/app/page.js
+import Gallery from "@/app/Carousel/carousel";
 import Bglandingpage from "@/app/components/bglandingpage";
 import Carousel from "@/app/components/Carousel";
 import Largescreenfooter from "@/app/components/largescreenfooter";
@@ -49,7 +50,8 @@ export default function HomePage() {
             <Carousel city="Tokyo"/>
       </motion.div>
       </AuroraBackground> */}
-      <Carousel city="Dubai"/>
+      <Gallery/>
+            <Carousel city="Dubai"/>
             <Carousel city="London"/>
             <Carousel city="New York"/>
             <Carousel city="Paris"/>
