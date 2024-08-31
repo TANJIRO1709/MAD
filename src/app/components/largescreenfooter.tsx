@@ -47,7 +47,7 @@ const Largescreenfooter = () => {
                 </ul>
             </div>
         </footer>
-        <div className="footer-logo flex flex-col items-center -mt-8 xl:hidden">
+        <div className="footer-logo flex flex-col items-center -mt-7 xl:hidden">
             <Image 
             src="/0e36691d40232362e5e738d445944622.png"
             alt="MakeADream"
