@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Inter, sans-serif;
   }
+  
   .container{
     /* background-image: url('/pietro-de-grandi-y5vLKnZr6Zg-unsplash.jpg'); */
     background-color: #000000;
@@ -110,6 +111,9 @@ body {
         .logo{
             font-size: 3.5rem;
         }
+        .header p{
+            font-size: 40px;
+        }
         .logo img {
             width: 70px;
             height: 70px;
@@ -198,3 +202,4 @@ body {
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
+  
