@@ -1,0 +1,55 @@
+"use client";
+
+import Image from "next/image";
+import React from "react";
+import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
+import Link from "next/link";
+
+export default function ThreeDCardDemo() {
+  return (
+    <CardContainer className="inter-var">
+      <CardBody className="bg-gradient-to-b from-black/20 to-[#3E523E] relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[23rem] h-auto rounded-xl p-6 border  ">
+        <CardItem
+          translateZ="50"
+          className="text-xl font-bold text-white dark:text-white"
+        >
+          Covent Garden London
+        </CardItem>
+        <CardItem
+          as="p"
+          translateZ="60"
+          className="text-white text-sm max-w-sm mt-2 dark:text-neutral-300"
+        >
+          Covent Garden is a district in London, on the eastern fringes of the West End, between St Martin's Lane and Drury Lane
+        </CardItem>
+        <CardItem translateZ="100" className="w-full mt-4">
+          <Image
+            src="https://static1.squarespace.com/static/62015f66f840ef671da14ae7/t/6492626032b36f4ab4776f41/1687315047650/Covent+Garden+007.JPG?format=1500w"
+            height="1000"
+            width="1000"
+            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            alt="thumbnail"
+          />
+        </CardItem>
+        <div className="flex justify-between items-center mt-20">
+          <CardItem
+            translateZ={20}
+            as={Link}
+            href="/London/London1"
+            target="__blank"
+            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+          >
+            Try now →
+          </CardItem>
+          <CardItem
+            translateZ={20}
+            as="button"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+          >
+           Explore
+          </CardItem>
+        </div>
+      </CardBody>
+    </CardContainer>
+  );
+}
