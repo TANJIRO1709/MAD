@@ -110,7 +110,7 @@ const items = [
   },
   {
     title: "King Abdulaziz Center for World Culture",
-    description: "hosts a variety of events and activities, focusing on art, science, and culture.",
+    description: "hosts a variety of events and activities,focusing on art, science, and culture.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },

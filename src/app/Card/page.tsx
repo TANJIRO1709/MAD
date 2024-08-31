@@ -20,7 +20,7 @@ export default function ThreeDCardDemo() {
           translateZ="60"
           className="text-white text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Covent Garden is a district in London, on the eastern fringes of the West End, between St Martin's Lane and Drury Lane
+          Covent Garden is a district in London, on the eastern fringes of the West End, between St Martins Lane and Drury Lane
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image

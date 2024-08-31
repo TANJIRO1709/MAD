@@ -31,7 +31,7 @@ export function City15() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkOi8fJcIKJN-HTTZjSQ4_K-ZR_CunvNYwaw&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpsxnveYqcXe4tBnMX9WH-XldfxXt9dmr-mg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://petnahafricatours.com/wp-content/uploads/2023/08/dubai-aqaurium.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_Xp2E1wXuxZLPjX6M7cXlNfhQdBxKe1CeQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0d/09/f2/b7.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-HeQVeL1_4hld6ZGI_kBpC67RhkUa7xwiQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://da28ojrjakn6f.cloudfront.net/tickets/4606/NEW/img_1709534792_1709534829__aq1.jpg?v=1.1.0"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52zbWdiBwPUAqROB1_--Z3XiZ5VUoL7B8aA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/a5/18/1f.jpg"
+    src="https://www.thedistillerydistrict.com/wp-content/uploads/2020/05/1024.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://i.ytimg.com/vi/0j-bWuG5utM/maxresdefault.jpg"
+    src="https://upload.wikimedia.org/wikipedia/commons/5/5b/St_Lawerence_South_Market_Exterior_202112.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://da28ojrjakn6f.cloudfront.net/tickets/4606/NEW/img_1647248016_1647249468___att2626.jpg?v=1.1.0"
+    src="https://www.toronto.ca/wp-content/uploads/2017/12/8b4b-High-Park-Maple-Leaf.jpg"
     alt="Cover Image"
   />
 </div>
@@ -100,46 +100,44 @@ const Image7 = () => (
 
 const items = [
   {
-    
-    title: "Stonehenge, Windsor Castle, and Bath",
-    description: "As the oldest and largest occupied castle in the world",
+    title: "CN Tower",
+    description: "An iconic landmark, the CN Tower offers breathtaking views of the city from its observation deck.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Opulent State Apartments ",
-    description: "Venture into the opulent State Apartments to discover a statue of Queen Victoria, the Waterloo Chamber, the King’s Rooms, Queen’s Rooms and world-famous masterpieces by the likes of Leonardo da Vinci and Rembrandt.",
+    title: "Royal Ontario Museum (ROM)",
+    description: "One of the largest museums in North America, the ROM features diverse exhibits, including natural history, world cultures, and art.",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-  
-    description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
+    title: "Art Gallery of Ontario (AGO)",
+    description: "Home to an extensive collection of Canadian and international art, the AGO features works from the Group of Seven, Indigenous art, and contemporary pieces.",
     header: <Image3/>,
-    
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "St George’s Chapel",
-    description:
-      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
+    title: "Toronto Islands",
+    description: "A short ferry ride from downtown, the Toronto Islands offer beautiful views of the city skyline, beaches, and recreational areas.",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Salisbury Plains ",
-    description: "The great and ancient stone circle of Stonehenge is one of the wonders of the world.",
+    title: "Distillery District",
+    description: "This historic area is known for its well-preserved Victorian architecture and cobblestone streets.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Neolithic houses",
-    description: "Make sure to visit the award-winning visitor centre where you can see 250 archaelogical objects",
+    title: "St. Lawrence Market",
+    description: "A food lover’s paradise, St. Lawrence Market is known for its fresh produce, artisanal products, and diverse food stalls.",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Bath",
-    description: "A UNESCO World Heritage Site, Bath is a stunning Georgian city with exceptional architecture.",
+    title: "High Park",
+    description:"Toronto's largest public park offers a range of recreational activities, including hiking trails, a zoo, sports facilities, and beautiful gardens.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
