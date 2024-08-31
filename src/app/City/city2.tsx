@@ -10,6 +10,7 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
+import Image from "next/image";
 
 export function City2() {
   return (
@@ -30,7 +31,7 @@ export function City2() {
 
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
-  <img
+  <Image
     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs98VXznCbdcFByn4jJ27Jh40l-ze1766sUw&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
@@ -40,7 +41,7 @@ const Skeleton = () => (
 );
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
-  <img
+  <Image
     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSty4g7I8nj4w9tnSFBAnEUkf-c5fwK31Xsw&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
@@ -50,7 +51,7 @@ const Image2 = () => (
 );
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
-  <img
+  <Image
     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvDGx8pvc_odur8ShT0AmNnqY4uB6AYqCqiQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
@@ -60,7 +61,7 @@ const Image3 = () => (
 );
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
-  <img
+  <Image
     src="https://www.mbartsandculture.org/wp-content/uploads/2022/01/Image-1-1024x683.jpeg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
@@ -70,7 +71,7 @@ const Image4 = () => (
 );
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
-  <img
+  <Image
     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYNkPfzHtMr4G9TSMSTpI6c39Ib_V5q2y-g&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
@@ -79,7 +80,7 @@ const Image5 = () => (
 );
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
-  <img
+  <Image
     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDlmJGbRTT-Jp84ulb9geifSIq7jDQezHCWQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
@@ -89,7 +90,7 @@ const Image6 = () => (
 );
 const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
-  <img
+  <Image
     className="absolute inset-0 w-full h-full object-cover"
     src="https://cms.friendswithyou.com/uploads/projects/Amanda-Fletcher-LittleCloud-Sky-1920x1440.jpg"
     alt="Cover Image"
