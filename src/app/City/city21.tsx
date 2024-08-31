@@ -73,7 +73,7 @@ const Image7 = () => (
 const items = [
   {
     title: "Merlion Park",
-    description:" This waterfront park offers great views of Marina Bay and is a popular spot for photos."
+    description:" This waterfront park offers great views of Marina Bay and is a popular spot for photos.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
