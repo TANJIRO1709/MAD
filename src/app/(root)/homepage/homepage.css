@@ -4,13 +4,15 @@ body {
     font-family: Inter, sans-serif;
   }
   .container{
-    background-image: url('/pietro-de-grandi-y5vLKnZr6Zg-unsplash.jpg');
+    /* background-image: url('/pietro-de-grandi-y5vLKnZr6Zg-unsplash.jpg'); */
+    background-color: #000000;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100dvh;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    padding: 0;
   }
   .sulphur-point-regular {
     font-family: "Sulphur Point", sans-serif;
@@ -56,8 +58,8 @@ body {
             margin-bottom: 1rem;
         }
         .container{
-          padding-right: 1rem;
-          padding-left: 1rem;
+          /* padding-right: 1rem;
+          padding-left: 1rem; */
         }
         .cta-button{
             font-size: 1rem;
@@ -152,7 +154,7 @@ body {
         font-size: 1rem;
       }
       .container{
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
       }
 }
   .card-container {

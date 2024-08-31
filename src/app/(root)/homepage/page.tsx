@@ -1,12 +1,14 @@
 // src/app/page.js
-import Header from "@/app/components/Header";
+import Bglandingpage from "@/app/components/bglandingpage";
+import Carousel from "@/app/components/Carousel";
 import Largescreenfooter from "@/app/components/largescreenfooter";
 import Image from "next/image";
 
 export default function HomePage() {
     return (
         <div className="container no-scrollbar">
-            <Header/>
+            <Bglandingpage/>
+            {/* <Header/>
              <section className="hero">
                 <h1>It is A Big World Out There, Go Explore.</h1>
                 <p>Discover new attractions and experiences to match your interests and travel style.</p>
@@ -26,8 +28,12 @@ export default function HomePage() {
                     <h3>Easy Bookings</h3>
                     <p>Best in class ticket booking system.</p>
                 </div>
-            </div>
-
+            </div> */}
+            <Carousel city="Dubai"/>
+            <Carousel city="London"/>
+            <Carousel city="New York"/>
+            <Carousel city="Paris"/>
+            <Carousel city="Tokyo"/>
             <footer className="bg-[#3E523E] p-4 mt-5 w-full max-h-fit">
                 <div className="upperfooter max-w-full text-white md:hidden">
                     <div className="footer-links flex flex-col items-center md:w-1/3">

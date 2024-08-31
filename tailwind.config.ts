@@ -58,6 +58,9 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage:{
+        "cardbackground":"linear-gradient(to bottom, #ffffff00, #3E523E)",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
