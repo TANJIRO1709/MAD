@@ -31,7 +31,7 @@ export function City16() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://www.dubaimiraclegarden.com/wp-content/uploads/slider/cache/1bbd5f5cab3b0f22aa139b2e825ab62b/FLORAL-CLOCK.jpg"
+    src="https://cdn.britannica.com/15/194815-050-08B5E7D1/Nativity-facade-Sagrada-Familia-cathedral-Barcelona-Spain.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3aoMj5p2hFDVLP2mRkr-4rYtDTaQYggIqA&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGXvnzcJcmqXQtxclwK1V6K-4bqec6Gt0yFQ&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt672qFzyke--d3zT2dvPkgr1g8kmG2MAWw&s"
+    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/55/ec.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY2wtvOO5ukAN4eGH5w02Hu-kARSfqycnHRg&s"
+    src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/56/6f.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoe22Ml08KkeaXEL3BrOj48-q9cUtjvthVBg&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn3AiHxQCd3kb2BsljMsqwr4QwBe99ZI8KHg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtF-iDv8huHmcWc-0Z7aJBtk3qnCnDWz6gYQ&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQydqBKdKq_FYALR3kDkxNMclbvQDH216Kivg&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://traveleva-blogs.gumlet.io/wp-content/uploads/2024/03/dubai-miracle-garden.jpg?compress=true&quality=80&w=768&dpr=2.6"
+    src="https://www.barcelona-life.com/wp-content/uploads/2018/10/mnac-montjuic.jpg"
     alt="Cover Image"
   />
 </div>
@@ -100,46 +100,43 @@ const Image7 = () => (
 
 const items = [
   {
-    
-    title: "Stonehenge, Windsor Castle, and Bath",
-    description: "As the oldest and largest occupied castle in the world",
+    title: "Sagrada Família",
+    description: "Antoni Gaudí’s iconic basilica, still under construction, is known for its elaborate and unique architectural style",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Opulent State Apartments ",
-    description: "Venture into the opulent State Apartments to discover a statue of Queen Victoria, the Waterloo Chamber, the King’s Rooms, Queen’s Rooms and world-famous masterpieces by the likes of Leonardo da Vinci and Rembrandt.",
+    title: "Park Güell",
+    description: "Another Gaudí masterpiece, this colorful park features whimsical mosaics, serpentine benches, and panoramic views of the city.",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-  
-    description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
+    title: "Gothic Quarter",
+    description: "This historic district is a maze of narrow medieval streets filled with shops, cafes, and historic buildings.",
     header: <Image3/>,
-    
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
-  {
-    title: "St George’s Chapel",
-    description:
-      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
+  { title: "La Rambla",
+    description: "A bustling street in the heart of the city, La Rambla is lined with shops, restaurants, and street performers.",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Salisbury Plains ",
-    description: "The great and ancient stone circle of Stonehenge is one of the wonders of the world.",
+    title: "Casa Milà",
+    description: "Known for its wavy stone facade and wrought-iron balconies, this features a unique rooftop with chimney sculptures and offers insight into modernist architecture.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Neolithic houses",
-    description: "Make sure to visit the award-winning visitor centre where you can see 250 archaelogical objects",
+    title: "Casa Batlló",
+    description: "Another Gaudí creation, this building is famous for its colorful facade and innovative design. The interior is equally impressive, with curved lines and imaginative details.",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Bath",
-    description: "A UNESCO World Heritage Site, Bath is a stunning Georgian city with exceptional architecture.",
+    title: "Montjuïc",
+    description: "A hill overlooking the city, Montjuïc is home to several attractions, including the Magic Fountain, the Montjuïc Castle, and the National Art Museum of Catalonia (MNAC).",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
