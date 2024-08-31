@@ -33,12 +33,12 @@ export default function DropdownMenuCheckboxes({user}:any) {
         <DropdownMenuSeparator />
         <DropdownMenuItem>
             <button type="submit" className="flex w-full items-center">
-                Login
+                <a href="/signin">Login</a>
             </button>
         </DropdownMenuItem>
         <DropdownMenuItem>
             <button type="submit" className="flex w-full items-center">
-                SignUp
+                <a href="/signup">SignUp</a>
             </button>
         </DropdownMenuItem>
       </DropdownMenuContent>
