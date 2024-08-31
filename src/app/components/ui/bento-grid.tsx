@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils1";
 import { Sriracha } from "next/font/google";
 
 const sriracha = Sriracha({ subsets: ["latin"], weight: "400" });
