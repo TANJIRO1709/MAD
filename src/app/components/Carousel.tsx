@@ -13,6 +13,7 @@ const Carousel = ({city}:{city:string}) => {
                <Link href="/Render2">  <ThreeDCardDemo title="Clubs & Nightlife" imagelink="/nightlife.jpg" description="To have an exciting nightlife in dubai, explore the right clubs and bars"/> </Link>
                <Link href="/Render3"> <ThreeDCardDemo title="Places" imagelink="/places.jpg" description="New to Dubai? We have planned places to explore"/></Link> 
                <Link href="/Render4"> <ThreeDCardDemo title="Concerts" imagelink="/concerts.jpg" description=" Bored of daily routine? Take a break. Here are some musical concerts in Dubai taking place this month"/> </Link> 
+
             </div>
         </section>
     </>

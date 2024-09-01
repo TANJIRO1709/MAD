@@ -31,7 +31,7 @@ export function City10() {
 const Skeleton = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMx1Lx6oj5lNMj37jC0R83uf82ELHm8n6nuQ&s"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/SpaceNeedleTopClose.jpg/305px-SpaceNeedleTopClose.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -41,7 +41,7 @@ const Skeleton = () => (
 const Image2 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSpGbe88X6Gx8lSsBSxrVO7xiPJHHVncKFg&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0dpx9PZxowTLZE1rbfICReOXr_iJOvqBhA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -51,7 +51,7 @@ const Image2 = () => (
 const Image3 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://media.cntravellerme.com/photos/64adaa3b8065f76731bd4b67/16:9/w_2560%2Cc_limit/Hero-Dubai-Mall-Fashion-Avenue-Dubai-Alamy-R9FRB7.jpg"
+    src="https://photographylife.com/wp-content/uploads/2015/07/jasonwaltman-Seattle-and-Mount-Rainier.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -61,7 +61,7 @@ const Image3 = () => (
 const Image4 = () => (
   <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://platinumlist.net/guide/wp-content/uploads/2023/02/dubai-mall-fountain.webp"
+    src="https://media.cntraveler.com/photos/5fc57d37013df4de80687aff/master/pass/Glasshouse%20Sculpture.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="background"
   />
@@ -71,7 +71,7 @@ const Image4 = () => (
 const Image5 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8c/0c/1a/taken-5-years-ago-it.jpg?w=1200&h=1200&s=1"
+    src="https://media.cntraveler.com/photos/5afb519574903712462193e7/16:9/w_2560%2Cc_limit/Seattle-Art-Museum_2018_i_SAM_9.jpg"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -80,7 +80,7 @@ const Image5 = () => (
 const Image6 = () => (
 <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiBzYyPYz3g6cej0lBfYrGT8YMRReDyCYyag&s"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjKTMmgJsCLfh6jywoFcTXaRtGpmbs9dS3CA&s"
     className="absolute inset-0 w-full h-full object-cover"
     alt="Cover Image"
   />
@@ -91,7 +91,7 @@ const Image7 = () => (
  <div className="relative flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100 overflow-hidden">
   <img
     className="absolute inset-0 w-full h-full object-cover"
-    src="https://www.visitdubai.com/-/media/gathercontent/poi/t/the-dubai-mall/fallback-image/the-dubai-mall-poi-shutterstock.jpg"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdTkwZNzpKU9YyPZPlhvpSwWQtoHcm1FbTg&s"
     alt="Cover Image"
   />
 </div>
@@ -101,45 +101,44 @@ const Image7 = () => (
 const items = [
   {
     
-    title: "Dubai Mall",
-    description: "It is the largest mall in the world by total land area and the 26th-largest shopping mall in the world",
+    title: "Space Needle",
+    description: "Seattle’s most iconic landmark, the Space Needle offers panoramic views of the city, Puget Sound, and the surrounding mountains.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Opulent State Apartments ",
-    description: "Venture into the opulent State Apartments to discover a statue of Queen Victoria, the Waterloo Chamber, the King’s Rooms, Queen’s Rooms and world-famous masterpieces by the likes of Leonardo da Vinci and Rembrandt.",
+    title: "Pike Place Market",
+    description: "One of the oldest continuously operated farmers' markets in the United States, Pike Place Market is famous for its fresh seafood, local produce, and artisanal goods",
     header: <Image2 />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-  
-    description: "Red uniforms and bearskin caps at the Changing of the Guard ceremony ",
+    title: "Kerry Park",
+    description: "A small park on Queen Anne Hill, Kerry Park is famous for its stunning panoramic views of downtown Seattle, the Space Needle, and Mount Rainier on clear days.",
     header: <Image3/>,
-    
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "St George’s Chapel",
-    description:
-      "The setting for many royal weddings including that of Prince Harry and Meghan Markle’s and the final resting place of Queen Elizabeth II. ",
+    title: "Chihuly Garden and Glass",
+    description: "The indoor galleries and outdoor garden feature intricate and colorful glass sculptures that are truly mesmerizing.",
     header: <Image4/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Salisbury Plains ",
-    description: "The great and ancient stone circle of Stonehenge is one of the wonders of the world.",
+    title: "Seattle Art Museum (SAM)",
+    description: "Located in downtown Seattle, the Seattle Art Museum offers a diverse collection of art, ranging from ancient to contemporary pieces.",
     header: <Image5/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Neolithic houses",
-    description: "Make sure to visit the award-winning visitor centre where you can see 250 archaelogical objects",
+    title: "Museum of Pop Culture (MoPOP)",
+    description: "Founded by Microsoft co-founder Paul Allen, MoPOP is dedicated to contemporary popular culture.",
     header: <Image6/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Bath",
-    description: "A UNESCO World Heritage Site, Bath is a stunning Georgian city with exceptional architecture.",
+    title: "Washington State Ferries",
+    description: "The ferry to Bainbridge Island offers beautiful views of the Seattle skyline and the surrounding natural scenery.",
     header: <Image7 />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },

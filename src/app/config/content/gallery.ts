@@ -1,8 +1,11 @@
 export const logos = [
-  "/carousel 1.png",
- "/carousel 2.png",
- "/carousel 3.png",
-  "/carousel 4.png",
-  "/carousel 5.png",
-  "/carousel 6.png",
+
+  "/Image1.png",
+  "/Image2.png",
+  "/Image3.png",
+  "/Image4.png",
+  "/Image5.png",
+  "/Image6.png",
+  "/Image7.png",
+
 ];

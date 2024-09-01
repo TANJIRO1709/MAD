@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MakeADream
 
-## Getting Started
 
-First, run the development server:
+This Travel Recommendation Site offers tailored travel suggestions using a custom ML model powered by Gemini. Built on Next.js and deployed via Vercel, the site is fast, user-friendly, and scalable.
+# Features
+Personalized Suggestions: Custom ML-driven travel recommendations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Responsive Design: Easy-to-use and mobile-friendly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Scalable Architecture: Built to grow with demand.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Tech Stack
+Next.js: Server-side rendering and static generation.
+AWS: Scalable ML model hosting.
+Gemini: Precision ML recommendations.
+Vercel: Fast, optimized deployment.
+Render: Backend service hosting.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install my-project with npm
 
-## Learn More
+bash
+  git clone https://github.com/TANJIRO1709/MAD.git
+  cd makeadream
+  npm install
+  npm run dev
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Future Enhancements
+Scalability: Expand server resources on Vercel and AWS.
+Advanced ML Models: Integrate more sophisticated models.
+Social Sharing: Enable users to share travel plans on social media.
+![Logo](https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg)
+![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xQcwKitRgXfqdi34DYlocPSEXD2G2zZipg&s)
+![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFt9adm3sUOIdi82kcc-p9g4VeZwrWiJiAug&s)

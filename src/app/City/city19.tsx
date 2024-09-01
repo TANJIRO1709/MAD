@@ -74,7 +74,7 @@ const items = [
   {
     
     title: "Sultan Qaboos Grand Mosque",
-    description: "Largest Mosque in Oman,known for its stunning architecture, intricate chandeliers, and one of the world's largest hand-woven carpets."
+    description: "Largest Mosque in Oman,known for its stunning architecture, intricate chandeliers, and one of the world's largest hand-woven carpets.",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
