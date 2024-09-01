@@ -2,54 +2,13 @@ import Gallery from "@/app/Carousel/carousel";
 import Bglandingpage from "@/app/components/bglandingpage";
 import Carousel from "@/app/components/Carousel";
 import Largescreenfooter from "@/app/components/largescreenfooter";
-// import { AuroraBackground } from "@/app/components/ui/aurora-background";
-// import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function HomePage() {
     return (
         <div className=" bg-[url(/pietro-de-grandi-y5vLKnZr6Zg-unsplash.jpg)] container no-scrollbar">
             <Bglandingpage/>
-            {/* <Header/>
-             <section className="hero">
-                <h1>It is A Big World Out There, Go Explore.</h1>
-                <p>Discover new attractions and experiences to match your interests and travel style.</p>
-                <button className="cta-button">Book Now</button>
-            </section>
-            
-            <div className="card-container">
-                <div className="card">
-                    <h3>Top Choices</h3>
-                    <p>Total 600+ destinations you can work with.</p>
-                </div>
-                <div className="card">
-                    <h3>Quality Guidance</h3>
-                    <p>Our tour guide has 20+ years of experience.</p>
-                </div>
-                <div className="card">
-                    <h3>Easy Bookings</h3>
-                    <p>Best in class ticket booking system.</p>
-                </div>
-            </div> */}
-            {/* <AuroraBackground>
-      <motion.div
-        initial={{ opacity: 0.0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.3,
-          duration: 0.8,
-          ease: "easeInOut",
-        }}
-        className="relative flex flex-col gap-4 items-center justify-center px-4"
-      >
-            <Carousel city="Dubai"/>
-            <Carousel city="London"/>
-            <Carousel city="New York"/>
-            <Carousel city="Paris"/>
-            <Carousel city="Tokyo"/>
-      </motion.div>
-      </AuroraBackground> */}
-      <Gallery/>
+            <Gallery/>
             <Carousel city="Dubai"/>
             <Carousel city="London"/>
             <Carousel city="New York"/>
@@ -91,44 +50,6 @@ export default function HomePage() {
                     />
                     <h1 className="text-2xl mt-3">Make A Dream</h1>
                     </div>
-                    {/* <div className="upperfooter2 flex justify-between mt-4">
-                        <div className="">
-                                <ul>
-                                    <li><a href=""><h4>Support</h4></a></li>
-                                    <li><a href="#">Help Centre</a></li>
-                                    <li><a href="#">Disability Support</a></li>
-                                    <li><a href="#">Cancellations Options</a></li>
-                                    <li><a href="#">Report Neighbourhood</a></li>
-                                </ul>
-                            </div>
-                        <div className="">
-                            <ul>
-                            <li><a href=""><h4>Privacy & Terms</h4></a></li>
-                                <li><a href="#">Cookie Policy</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Sign Up</a></li>
-                                <li><a href="#">Log In</a></li>
-                            </ul>
-                        </div>
-                    </div> */}
-                {/* <div className="footer-links">
-                    <ul>
-                    <li><a href=""><h4>Privacy & Terms</h4></a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Sign Up</a></li>
-                        <li><a href="#">Log In</a></li>
-                    </ul>
-                    </div> */}
-                {/* <div className="footer-links">
-                    <ul>
-                        <li><a href=""><h4>Privacy & Terms</h4></a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Sign Up</a></li>
-                        <li><a href="#">Log In</a></li>
-                    </ul>
-                    </div> */}
                 </div>
                 <Largescreenfooter/>
                  <div className="middlefooter h-[2px] max-w-full bg-white mt-2">
