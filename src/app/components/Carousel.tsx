@@ -1,6 +1,6 @@
 import React from 'react'
 import ThreeDCardDemo from '../Card/page'
-
+import Link from "next/link";
 const Carousel = ({city}:{city:string}) => {
   return (
     <>
@@ -9,14 +9,14 @@ const Carousel = ({city}:{city:string}) => {
                 <h1 className='text-white text-[3rem]'>{city}</h1>
             </div>
             <div className="cardcarousel flex flex-row flex-wrap justify-around">
-                <ThreeDCardDemo title="Sports" imagelink="/sports.jpg"description="Take a look at the destination youshould stop by if you are a sports freak"/>
-                <ThreeDCardDemo title="Clubs & Nightlife" imagelink="/nightlife.jpg" description="To have an exciting nightlife in dubai, explore the right clubs and bars"/>
-                <ThreeDCardDemo title="Places" imagelink="/places.jpg" description="New to Dubai? We have planned places to explore"/>
-                <ThreeDCardDemo title="Concerts" imagelink="/concerts.jpg" description=" Bored of daily routine? Take a break. Here are some musical concerts in Dubai taking place this month"/>
-                <ThreeDCardDemo title="Sports" imagelink="/sports.jpg"description="Take a look at the destination youshould stop by if you are a sports freak"/>
-                <ThreeDCardDemo  title="Clubs & Nightlife" imagelink="/nightlife.jpg" description="To have an exciting nightlife in dubai, explore the right clubs and bars"/>
-                <ThreeDCardDemo  title="Clubs & Nightlife" imagelink="/nightlife.jpg" description="To have an exciting nightlife in dubai, explore the right clubs and bars"/>
-                <ThreeDCardDemo  title="Clubs & Nightlife" imagelink="/nightlife.jpg" description="To have an exciting nightlife in dubai, explore the right clubs and bars"/>
+               <Link href="/Render1"> <ThreeDCardDemo  title="Sports" imagelink="/sports.jpg"description="Take a look at the destination youshould stop by if you are a sports freak"/> </Link>
+               <Link href="/Render2">  <ThreeDCardDemo title="Clubs & Nightlife" imagelink="/nightlife.jpg" description="To have an exciting nightlife in dubai, explore the right clubs and bars"/> </Link>
+               <Link href="/Render3"> <ThreeDCardDemo title="Places" imagelink="/places.jpg" description="New to Dubai? We have planned places to explore"/></Link> 
+               <Link href="/Render4"> <ThreeDCardDemo title="Concerts" imagelink="/concerts.jpg" description=" Bored of daily routine? Take a break. Here are some musical concerts in Dubai taking place this month"/> </Link> 
+                {/* <ThreeDCardDemo/>
+                <ThreeDCardDemo/>
+                <ThreeDCardDemo/>
+                <ThreeDCardDemo/> */}
             </div>
         </section>
     </>

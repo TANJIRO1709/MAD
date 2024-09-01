@@ -1,8 +1,10 @@
 import Image from "next/image";
 import React from "react";
 import DropdownMenuCheckboxes from "./Imagedropdown";
+import { getLoggedInUser } from "@/lib/server/users.actions";
 
-export default function Header() {
+export default async function Header() {
+  const user = await getLoggedInUser();
   return (
     <header className="header">
       <div className="logo">
@@ -14,7 +16,7 @@ export default function Header() {
         />
         <p className="">Make A Dream</p>
       </div>
-        <DropdownMenuCheckboxes/>
+        <DropdownMenuCheckboxes user={user}/>
     </header>
   );
 }

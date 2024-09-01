@@ -4,7 +4,8 @@ import React from "react";
  function page(){
     return(
         <div>
-            <City3/>
+            {/* <City3/> */}
+            hiii
         </div>
     )
  }

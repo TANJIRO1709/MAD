@@ -1,4 +1,3 @@
-// src/app/page.js
 import Gallery from "@/app/Carousel/carousel";
 import Bglandingpage from "@/app/components/bglandingpage";
 import Carousel from "@/app/components/Carousel";

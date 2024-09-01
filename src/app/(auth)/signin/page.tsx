@@ -1,7 +1,12 @@
 import SignupFormDemo from '@/app/components/signin'
+import { getLoggedInUser } from '@/lib/server/users.actions';
+import { redirect } from 'next/navigation';
 import React from 'react'
 
-const SignIn = () => {
+const SignIn = async () => {
+  const user = await getLoggedInUser();
+  //console.log(user);
+  if (user) redirect("/homepage")
   return (
     <>
       <SignupFormDemo/>
