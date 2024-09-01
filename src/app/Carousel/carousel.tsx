@@ -3,10 +3,9 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { logos, links } from "../config/content/gallery"; // Assuming 'links' is an array
-import Link from "next/link";
 
-// Gallery component
+import { logos } from "../config/content/gallery";
+//gallery component
 const Gallery = () => {
   const [settings] = useState({
     dots: false,
@@ -30,11 +29,13 @@ const Gallery = () => {
   });
 
   return (
-    <div className="w-[90%] h-20 overflow-hidden mx-auto">
-      <Slider {...settings}>
-        {logos.map((logo, index) => (
-          <div key={index} className="mx-auto pt-3">
-     
+
+    <>
+      <div className=" w-[90%] h-20 overflow-hidden mx-auto">
+        <Slider {...settings}>
+          {logos.map((logo, index) => (
+            <div key={index} className="mx-auto pt-3">
+
               <img
                 src={logo}
                 alt="logo"
@@ -43,11 +44,13 @@ const Gallery = () => {
                 loading="eager"
                 className=""
               />
-         
-          </div>
-        ))}
-      </Slider>
-    </div>
+
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </>
+
   );
 };
 

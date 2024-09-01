@@ -9,7 +9,7 @@ const Bglandingpage = () => {
              <section className="hero">
                 <h1>It is A Big World Out There, Go Explore.</h1>
                 <p>Discover new attractions and experiences to match your interests and travel style.</p>
-                <button className="cta-button">Explore</button>
+                <button className="cta-button"><a href="">Explore</a></button>
             </section>
             
             <div className="card-container mb-3">

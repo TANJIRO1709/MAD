@@ -10,4 +10,6 @@ function R1() {
   )
 }
 
+
 export default R1
+

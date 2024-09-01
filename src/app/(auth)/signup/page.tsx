@@ -6,7 +6,7 @@ import React from 'react'
 const SignupPage = async () => {
   const user = await getLoggedInUser();
   //console.log(user);
-  // if (user) redirect("/homepage")
+  if (user) redirect("/homepage")
   return (
     <>
     <SignupFormDemo/>
