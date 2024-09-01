@@ -1,7 +1,9 @@
 export const logos = [
-  "/image/anushrey.jpg",
-  "/image/raj.jpg",
-  "/image/ankit.jpg",
-  "/image/anushrey.jpg",
-  "/image/raj.jpg",
+  "/Image1.png",
+  "/Image2.png",
+  "/Image3.png",
+  "/Image4.png",
+  "/Image5.png",
+  "/Image6.png",
+  "/Image7.png",
 ];
