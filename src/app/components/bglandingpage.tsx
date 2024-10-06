@@ -7,9 +7,10 @@ const Bglandingpage = () => {
     <div className=' bg-cover bg-center pb-3'>
         <Header/>
              <section className="hero">
-                <h1>It is A Big World Out There, Go Explore.</h1>
-                <p>Discover new attractions and experiences to match your interests and travel style.</p>
-                <button className="cta-button"><a href="">Explore</a></button>
+                <div>
+                <h1>Where Will Your Next Adventure Take You?</h1>
+                <p>From breathtaking landscapes to vibrant cities, your perfect adventure is just a step away</p>
+                </div>
             </section>
             
             <div className="card-container mb-3">

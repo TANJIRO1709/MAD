@@ -50,13 +50,20 @@ body {
             position: relative;
             margin-right: 10px;
         }
+
+        .hero{
+          background-color:#3E523E ;
+          
+        }
         .hero h1{
-            font-size: 2rem;
+            font-size: 3rem;
             margin-bottom: 10px;
+            text-align: center;
         }
         .hero p{
             font-size: 1rem;
             margin-bottom: 1rem;
+            text-align: center;
         }
         .container{
           /* padding-right: 1rem;
@@ -202,4 +209,81 @@ body {
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
+  
+
+  .footer {
+    background-color: #f9f9f9d1;
+    padding: 2% 5%;
+    text-align: center;
+    border-top: 5px solid rgb(32, 18, 18); 
+  }
+  
+  .topSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin: 0 1%;
+    font-weight: 700;
+  }
+  
+  .socialLinks {
+    margin: 1% 0;
+    font-size: 1.2em;
+  }
+  
+  .socialLinks a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+    ;
+  }
+  
+  .socialLinks a:hover {
+    color: #f05d23;
+  }
+  
+  .rightSection {
+    margin: 1% 0;
+  }
+  
+  .rightSection p {
+    font-size: 1em;
+    color: black;
+  }
+  
+  .joinButton {
+    background-color:#402216 ;
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    margin: 2% 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  .joinButton:hover {
+    background-color: #e0521e;
+  }
+  
+  .email {
+    font-size: 1.1em;
+    margin-top: 1%;
+    color: #333;
+  }
+  
+  .bottomSection {
+    border-top: 1px solid #121010;
+    padding-top: 2%;
+    margin-top: 4%;
+
+  }
+  
+
+  
   
