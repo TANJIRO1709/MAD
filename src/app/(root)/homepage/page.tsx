@@ -9,11 +9,7 @@ export default function HomePage() {
     <div className=" bg-[url(/backgroundimagemad6.jpg)] container no-scrollbar">
       <Bglandingpage />
       <Gallery />
-      <Carousel city="Dubai" />
-      <Carousel city="London" />
-      <Carousel city="New York" />
-      <Carousel city="Paris" />
-      <Carousel city="Tokyo" />
+    
 
      
 
