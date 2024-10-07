@@ -30,6 +30,7 @@ body {
     color: white;
     justify-content:space-between;
     border: 1px solid #ffffff00;
+    margin-bottom: 2%;
   }
   
   .logo{
@@ -51,10 +52,6 @@ body {
             margin-right: 10px;
         }
 
-        .hero{
-          background-color:#3E523E ;
-          
-        }
         .hero h1{
             font-size: 3rem;
             margin-bottom: 10px;
@@ -216,6 +213,7 @@ body {
     padding: 2% 5%;
     text-align: center;
     border-top: 5px solid rgb(32, 18, 18); 
+    margin-top: 5%;
   }
   
   .topSection {
@@ -284,6 +282,39 @@ body {
 
   }
   
+.gem{
+  background-color: #2d4832b9;
+  margin: 2%;
+  margin-left: 9%;
+  margin-right: 9%;
+  padding: 7%;
+  border-radius: 30px;
+  font-size: 2em;
+  align-items: center;
+  color:white;
+  
+}
+ 
+.gembutton{
+    color: white;
+     background-color:#0d0d0dd1;
+     padding: 1%;
+     margin-top: 2%;
+     margin-left: 35%;
+     margin-right: 35%;
+     border: 5px;
+     border-color: black;
+     border-style: double;
+     border-radius: 5px;
+  
+    
+     
+      
+text-align: center;
+     
+}
 
-  
-  
+.gembutton:hover{
+  background-color: #f05d23de;
+  transform: scale(1.2);
+}

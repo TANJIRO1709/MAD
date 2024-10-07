@@ -1,20 +1,22 @@
 import Gallery from "@/app/Carousel/carousel";
 import Bglandingpage from "@/app/components/bglandingpage";
 import Carousel from "@/app/components/Carousel";
-import Largescreenfooter from "@/app/components/largescreenfooter";
 import Image from "next/image";
+import { FocusCardsDemo } from "@/app/Focus/focus";
 
 export default function HomePage() {
   return (
     <div className=" bg-[url(/backgroundimagemad6.jpg)] container no-scrollbar">
       <Bglandingpage />
       <Gallery />
-    
 
-     
+      <FocusCardsDemo />
 
-
-
+      <div className="gem">
+        <p>Craving new experiences? Click Gemini to reveal destinations where excitement and discovery never end.......</p>
+        <div className="gembutton"><button>Ask AI</button></div>
+        
+      </div>
 
       <footer className="footer">
         <div className="topSection">
