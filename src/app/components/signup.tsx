@@ -9,6 +9,7 @@ import {
 } from "@tabler/icons-react";
 import { signUpWithGoogle } from "@/lib/server/oauth";
 import { signup } from "@/lib/server/users.actions";
+import { useRouter } from "next/navigation";
 
 const BottomGradient = () => {
   return (
@@ -34,6 +35,7 @@ const LabelInputContainer = ({
 };
 
 export default function SignupFormDemo() {
+  const router=useRouter();
   const[firstname,setfirstname]=React.useState("");
   const[lastname,setlastname]=React.useState("");
   const[email,setemail]=React.useState("");
@@ -51,6 +53,9 @@ export default function SignupFormDemo() {
           password:password
         });
         setUser(newUser);
+        if (newUser){
+          router.push("/homepage");
+        }
       }
      catch (error) {
       console.error('Error', error);
@@ -59,7 +64,7 @@ export default function SignupFormDemo() {
   const handleGoogleLogin = async (event: { preventDefault: () => void; }) => {
     try {
         event.preventDefault();
-        await signUpWithGoogle();
+        const response=await signUpWithGoogle();
     } catch (error) {
         console.log('handleGoogleLogin error', error);
     }
@@ -68,11 +73,10 @@ export default function SignupFormDemo() {
     <section className="h-screen py-5 px-3 xl:py-14 overflow-hidden overflow-y-scroll no-scrollbar">
       <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white/10 ">
       <h2 className="font-extrabold text-xl text-white dark:text-neutral-200">
-        Welcome to Aceternity
+        Welcome to MakeADream
       </h2>
       <p className="text-white text-sm font-bold max-w-sm mt-2 dark:text-neutral-300">
-        Login to aceternity if you can because we don&apos;t have a login flow
-        yet
+        Login if u want everything required to explore the world at one place
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>

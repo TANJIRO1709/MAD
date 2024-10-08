@@ -2,8 +2,9 @@ import Gallery from "@/app/Carousel/carousel";
 import Bglandingpage from "@/app/components/bglandingpage";
 import { InfiniteMovingCards } from "@/app/components/ui/infinite-moving-cards";
 import { FocusCardsDemo } from "@/app/Focus/focus";
-import { AnimatePresence, motion } from "framer-motion";
 import CanvasRevealEffectDemo from "@/app/components/Cards/page"
+import { getLoggedInUser } from "@/lib/server/users.actions";
+import { redirect } from "next/navigation";
 const testimonials = [
   {
     quote:
@@ -67,40 +68,41 @@ const testimonials = [
   },
 ];
 
-
-export default function HomePage() {
+export default async function HomePage() {
+  const user = await getLoggedInUser();
+  if (!user) redirect("/signup")
   return (
-    <div className=" bg-[url(/backgroundimagemad6.jpg)] container no-scrollbar">
+    <div className=" bg-[url(/backgroundimage.webp)] container no-scrollbar">
       <Bglandingpage />
       <Gallery />
 
       <FocusCardsDemo />
 
  
- <div className="flex items-center justify-center pt-24">
-            <div className="max-w-lg w-full p-6 bg-black rounded-lg shadow-lg text-center">
-                <h2 className="text-2xl font-bold mb-4 text-white">AI for Travel Planning</h2>
-                <p className="text-white mb-6">
-                    Discover the best destinations, get personalized itineraries, and explore travel tips with our AI-powered travel assistant. 
-                    Plan your perfect trip effortlessly and let the AI do the heavy lifting!
-                </p>
-                <button className="bg-teal-500 text-white py-2 px-4 rounded-lg text-lg font-semibold transition-transform transform active:translate-y-1 active:shadow-inner shadow-lg hover:bg-teal-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-teal-300 focus:ring-opacity-50">
-                    <a href="/Gemini">Ask AI</a>
-                </button>
-            </div>
-        </div>
+    <div className="flex items-center justify-center pt-24">
+              <div className="max-w-lg w-full p-6 bg-black rounded-lg shadow-lg text-center">
+                  <h2 className="text-2xl font-bold mb-4 text-white">AI for Travel Planning</h2>
+                  <p className="text-white mb-6">
+                      Discover the best destinations, get personalized itineraries, and explore travel tips with our AI-powered travel assistant. 
+                      Plan your perfect trip effortlessly and let the AI do the heavy lifting!
+                  </p>
+                  <button className="bg-teal-500 text-white py-2 px-4 rounded-lg text-lg font-semibold transition-transform transform active:translate-y-1 active:shadow-inner shadow-lg hover:bg-teal-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-teal-300 focus:ring-opacity-50">
+                      <a href="/Gemini">Ask AI</a>
+                  </button>
+              </div>
+      </div>
 
 
-<div className="h-[40rem] rounded-md flex flex-col antialiased bg-transparent dark:bg-transparent items-center justify-center relative overflow-hidden">
-  <InfiniteMovingCards
-    items={testimonials}
-    direction="right"
-    speed="slow"
-  />
-</div>
+    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-transparent dark:bg-transparent items-center justify-center relative overflow-hidden">
+      <InfiniteMovingCards
+        items={testimonials}
+        direction="right"
+        speed="slow"
+      />
+    </div>
 
 
-<CanvasRevealEffectDemo/>
+    <CanvasRevealEffectDemo/>
 
 
       <footer className="footer">

@@ -2,7 +2,6 @@
 import * as React from "react"
 import Image from "next/image"
 import { Button } from "./ui/button"
-import { LogOut} from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -19,7 +18,7 @@ export default function DropdownMenuCheckboxes({user}:any) {
   const handleLogOut = async () => {
     const loggedOut = await logoutAccount();
 
-    if(loggedOut) router.push('/signin')
+   router.push('/signin')
   }
   return (
     <DropdownMenu>
