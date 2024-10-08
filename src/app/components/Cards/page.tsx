@@ -1,10 +1,9 @@
 "use client"; // Add this if you are using hooks or any client-side features
 import React from "react";
-import { CanvasRevealEffectDemo } from "@/app/components/ui/canvas-reveal-effect";
+import { CanvasRevealEffectDemo as ExternalCanvasRevealEffectDemo } from "@/app/components/ui/canvas-reveal-effect"; // Renamed import
 import AceternityIcon from "@/app/components/icons"; // Adjust this import based on your file structure
 import { AnimatePresence, motion } from "framer-motion";
-import Icon from "@/app/components/icon"
-
+import Icon from "@/app/components/icon";
 
 const CanvasRevealEffectDemo: React.FC = () => {
   return (
@@ -29,9 +28,7 @@ const Card = ({ title, icon, children }: { title: string; icon: React.ReactNode;
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-
       className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2] max-w-sm w-full mx-auto p-4 h-[30rem] relative"
-
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
