@@ -1,6 +1,6 @@
 "use client"; // Add this if you are using hooks or any client-side features
 import React from "react";
-import { CanvasRevealEffectDemo as ExternalCanvasRevealEffectDemo } from "@/app/components/ui/canvas-reveal-effect"; // Renamed import
+ // Renamed import
 import AceternityIcon from "@/app/components/icons"; // Adjust this import based on your file structure
 import { AnimatePresence, motion } from "framer-motion";
 import Icon from "@/app/components/icon";
