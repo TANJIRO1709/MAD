@@ -106,7 +106,7 @@ export default function HomePage() {
 
       <footer className="footer">
         <div className="topSection">
-          <h2>Let’s Enjoy Your Journey with Us</h2>
+          <h2>Lets Enjoy Your Journey with Us</h2>
           <div className="socialLinks">
             <a href="#">Instagram</a>
             <a href="#">Twitter X</a>
