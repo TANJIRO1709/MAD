@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Icon from "@/app/components/icon"
 
 
-export function CanvasRevealEffectDemo() {
+const CanvasRevealEffectDemo: React.FC = () => {
   return (
     <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-transparent dark:bg-black w-full gap-4 mx-auto px-8">
       <Card title="I haven't been everywhere, but it's on my list. Travel is not just about the destination; it's about the journey, the people you meet, and the stories you collect along the way. Each trip adds another layer to the rich tapestry of your life, expanding your worldview and igniting a sense of adventure that fuels your soul." icon={<AceternityIcon />}>
