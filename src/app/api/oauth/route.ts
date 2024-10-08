@@ -1,12 +1,17 @@
 import { createAdminClient } from "@/lib/server/appwrite";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
+import { NextRequest } from 'next/server';
 
-export async function GET(request: { nextUrl: { searchParams: { get: (arg0: string) => any; }; origin: any; }; }) {
-  const userId = request.nextUrl.searchParams.get("userId");
-  const secret = request.nextUrl.searchParams.get("secret");
+export async function GET(request: NextRequest) {
+  const { nextUrl } = request; // Extract nextUrl from request
+  const userId = nextUrl.searchParams.get("userId");
+  const secret = nextUrl.searchParams.get("secret");
 
   const { account } = await createAdminClient();
+  if (!userId || !secret) {
+    return NextResponse.json({ error: "Missing userId or secret" }, { status: 400 });
+  }
   const session = await account.createSession(userId, secret);
 
   cookies().set("appwrite-session", session.secret, {
@@ -16,5 +21,5 @@ export async function GET(request: { nextUrl: { searchParams: { get: (arg0: stri
     secure: true,
   });
 
-  return NextResponse.redirect(`${request.nextUrl.origin}/homepage`);
+  return NextResponse.redirect(`${nextUrl.origin}/homepage`);
 }

@@ -2,7 +2,7 @@
 import React from "react";
 import AceternityIcon from "@/app/components/icons"; // Adjust this import based on your file structure
 import { AnimatePresence, motion } from "framer-motion";
-import CanvasRevealEffect from "@/app/components/ui/canvas-reveal-effect"; // Ensure this import is correct
+import { CanvasRevealEffect } from "@/app/components/ui/canvas-reveal-effect"; // Ensure this import is correct
 import Icon from "@/app/components/icon";
 
 const CanvasRevealEffectDemo: React.FC = () => {
