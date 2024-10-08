@@ -3,23 +3,14 @@ import TypewriterEffect from "../components/ui/Typewriter";
 import { Button } from "../components/ui/button";
 import { useState } from "react";
 import { Input } from "../components/ui/input";
-import React from 'react'
 import axios from "axios";
 
 const GeminiAi = () => {
-
     const [prompt, setPrompt] = useState("");
     const [loading, setLoading] = useState(false);
     const [response, setResponse] = useState<string>("");
     const [noOfResponses, setNoOfResponses] = useState(0);
     const [disable, setDisable] = useState(false);
-
-    const word = [
-        {
-          text: {response},
-          className:"text-[50px] sm:text-[55px] lg:text-[65px] 2xl:text-[70px]"
-        }
-    ]
 
     async function getResponse(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
@@ -50,49 +41,46 @@ const GeminiAi = () => {
             setLoading(false);
         }
     }
-  return (
-    <div className="h-screen">
-        <section className="font-lato bg-white size-full flex justify-center items-center">
-                    <div className="">
-                        <form
-                            onSubmit={(e) => getResponse(e)}
-                            className="flex flex-col brk-3:flex-row gap-5 brk-3:gap-0 items-center mb-10 w-[80vw] justify-center border-2 border-black"
-                        >
-                            <Input
-                                value={prompt}
-                                onChange={
-                                    (e) => setPrompt(e.target.value)
-                                }
-                                placeholder="Start Asking..."
-                                id="webwizAI"
-                                name="prompt"
-                                className="border-2 border-black"
-                            />
-                            {/* <loading
-                                text={"Ask Webwiz AI"}
-                                loadingText={"Thinking..."}
-                                loading={loading}
-                                disable={disable}
-                            /> */}
-                        </form>
 
-                        {noOfResponses > 0 && (
-                            <div
-                                className="bg-[#D4E2D4] bg-opacity-60 rounded-xl py-10  px-6 sm:p-8 brk-3:p-10 lg:p-12 w-full"
-                            >
-                                {/* {loading && <TextLoader />} */}
-                                {response && (
-                                    <TypewriterEffect
-                                        text={response}
-                                        setDisable={setDisable}
-                                    />
-                                )}
-                            </div>
+    return (
+        <div className="h-screen flex justify-center items-center bg-black">
+            <section className="font-lato bg-white shadow-lg rounded-lg p-8 w-[90vw] max-w-2xl">
+                <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4">Welcome to Gemini AI</h1>
+                <p className="text-center text-gray-600 mb-6">Ask your questions and get instant responses!</p>
+                <form
+                    onSubmit={getResponse}
+                    className="flex flex-col gap-4 mb-6"
+                >
+                    <Input
+                        value={prompt}
+                        onChange={(e) => setPrompt(e.target.value)}
+                        placeholder="Start Asking..."
+                        id="webwizAI"
+                        name="prompt"
+                        className="border-2 border-black rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    />
+                    <Button
+                        type="submit"
+                        className="h-10 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+                        disabled={loading || disable}
+                    >
+                        {loading ? "Thinking..." : "Ask"}
+                    </Button>
+                </form>
+
+                {noOfResponses > 0 && (
+                    <div className="bg-[#D4E2D4] bg-opacity-60 rounded-xl py-4 px-6">
+                        {response && (
+                            <TypewriterEffect
+                                text={response}
+                                setDisable={setDisable}
+                            />
                         )}
                     </div>
-                </section>
-    </div>
-  )
-}
+                )}
+            </section>
+        </div>
+    );
+};
 
-export default GeminiAi
+export default GeminiAi;
