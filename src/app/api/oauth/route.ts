@@ -1,20 +1,28 @@
 import { createAdminClient } from "@/lib/server/appwrite";
 import { cookies } from "next/headers";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-export async function GET(request: { nextUrl: { searchParams: { get: (arg0: string) => any; }; origin: any; }; }) {
-  const userId = request.nextUrl.searchParams.get("userId");
-  const secret = request.nextUrl.searchParams.get("secret");
+export async function GET(request: NextRequest) {
+    const { searchParams, nextUrl } = request;
+    const userId = searchParams.get("userId");
+    const secret = searchParams.get("secret");
 
-  const { account } = await createAdminClient();
-  const session = await account.createSession(userId, secret);
+    const { account } = await createAdminClient();
 
-  cookies().set("appwrite-session", session.secret, {
-    path: "/",
-    httpOnly: true,
-    sameSite: "strict",
-    secure: true,
-  });
+    try {
+        const session = await account.createSession(userId, secret);
 
-  return NextResponse.redirect(`${request.nextUrl.origin}/homepage`);
+        // Set cookie with session secret
+        cookies().set("appwrite-session", session.secret, {
+            path: "/",
+            httpOnly: true,
+            sameSite: "strict",
+            secure: true,
+        });
+
+        return NextResponse.redirect(`${nextUrl.origin}/homepage`);
+    } catch (error) {
+        console.error("Error creating session:", error);
+        return NextResponse.error();
+    }
 }
