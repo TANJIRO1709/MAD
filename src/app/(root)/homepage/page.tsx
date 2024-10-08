@@ -4,7 +4,6 @@ import Carousel from "@/app/components/Carousel";
 import { InfiniteMovingCards } from "@/app/components/ui/infinite-moving-cards";
 import { FocusCardsDemo } from "@/app/Focus/focus";
 import { AnimatePresence, motion } from "framer-motion";
-import { CanvasRevealEffect } from "@/app/components/ui/canvas-reveal-effect";
 import CanvasRevealEffectDemo from "@/app/components/Cards/page"
 const testimonials = [
   {

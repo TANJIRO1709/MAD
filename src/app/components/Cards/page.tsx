@@ -1,5 +1,6 @@
 "use client"; // Add this if you are using hooks or any client-side features
 import React from "react";
+
 import CanvasRevealEffect from "@/app/components/ui/canvas-reveal-effect"; // Ensure this path is correct
 import AceternityIcon from "@/app/components/icons"; // Adjust this import based on your file structure
 import { AnimatePresence, motion } from "framer-motion";
@@ -59,4 +60,4 @@ const Card = ({ title, icon, children }: { title: string; icon: React.ReactNode;
   );
 };
 
-export default CanvasRevealEffectDemo; // Make this the default export
+export default CanvasRevealEffectDemo; // Make sure this is the default export
