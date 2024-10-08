@@ -1,6 +1,6 @@
 "use client"; // Add this if you are using hooks or any client-side features
 import React from "react";
- // Renamed import
+import CanvasRevealEffect from "@/app/components/ui/canvas-reveal-effect"; // Ensure this path is correct
 import AceternityIcon from "@/app/components/icons"; // Adjust this import based on your file structure
 import { AnimatePresence, motion } from "framer-motion";
 import Icon from "@/app/components/icon";
