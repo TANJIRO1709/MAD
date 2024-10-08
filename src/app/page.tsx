@@ -1,6 +1,5 @@
 // src/app/page.tsximport Gallery from "@/app/Carousel/carousel";
 import Bglandingpage from "@/app/components/bglandingpage";
-import Carousel from "@/app/components/Carousel";
 import { InfiniteMovingCards } from "@/app/components/ui/infinite-moving-cards";
 import { FocusCardsDemo } from "@/app/Focus/focus";
 import { AnimatePresence, motion } from "framer-motion";
