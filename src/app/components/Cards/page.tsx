@@ -5,7 +5,8 @@ import AceternityIcon from "@/app/components/icons"; // Adjust this import based
 import { AnimatePresence, motion } from "framer-motion";
 import Icon from "@/app/components/icon"
 
-const CanvasRevealEffectDemo: React.FC = () => {
+
+export function CanvasRevealEffectDemo() {
   return (
     <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-transparent dark:bg-black w-full gap-4 mx-auto px-8">
       <Card title="I haven't been everywhere, but it's on my list. Travel is not just about the destination; it's about the journey, the people you meet, and the stories you collect along the way. Each trip adds another layer to the rich tapestry of your life, expanding your worldview and igniting a sense of adventure that fuels your soul." icon={<AceternityIcon />}>
@@ -28,7 +29,9 @@ const Card = ({ title, icon, children }: { title: string; icon: React.ReactNode;
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+
       className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2] max-w-sm w-full mx-auto p-4 h-[30rem] relative"
+
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
