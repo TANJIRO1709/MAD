@@ -43,7 +43,7 @@ const GeminiAi = () => {
     }
 
     return (
-        <div className="h-screen flex justify-center items-center bg-black">
+        <div className="h-screen flex justify-center items-center">
             <section className="font-lato bg-white shadow-lg rounded-lg p-8 w-[90vw] max-w-2xl">
                 <h1 className="text-2xl sm:text-3xl font-bold text-center mb-4">Welcome to Gemini AI</h1>
                 <p className="text-center text-gray-600 mb-6">Ask your questions and get instant responses!</p>
