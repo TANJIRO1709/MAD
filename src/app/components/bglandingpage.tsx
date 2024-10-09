@@ -1,11 +1,10 @@
 import React from 'react'
-import Header from './Header'
-
+import HeaderClient from './HeaderClient';
 const Bglandingpage = () => {
   return (
     <>
     <div className=' bg-cover bg-center pb-3'>
-        <Header/>
+        <HeaderClient/>
              <section className="hero">
                 <div>
                 <h1>Where Will Your Next Adventure Take You?</h1>
@@ -28,8 +27,7 @@ const Bglandingpage = () => {
                 </div>
             </div>
     </div>
-    {/* <div className="line w-full h-1 bg-slate-50">
-            </div> */}
+   
     </>
   )
 }

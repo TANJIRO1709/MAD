@@ -41,7 +41,7 @@ export default function DropdownMenuCheckboxes({user}:any) {
         <DropdownMenuItem>
             <button type="submit" className="flex w-full items-center">
                {
-                user? <a href="#">Vibhuu</a>: <a href="/signin">Login</a>
+                user? <a href="#">{user.name}</a>: <a href="/signin">Login</a>
                }
             </button>
         </DropdownMenuItem>

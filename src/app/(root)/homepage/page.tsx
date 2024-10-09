@@ -1,10 +1,12 @@
+'use client';
 import Gallery from "@/app/Carousel/carousel";
 import Bglandingpage from "@/app/components/bglandingpage";
 import { InfiniteMovingCards } from "@/app/components/ui/infinite-moving-cards";
 import { FocusCardsDemo } from "@/app/Focus/focus";
 import CanvasRevealEffectDemo from "@/app/components/Cards/page"
 import { getLoggedInUser } from "@/lib/server/users.actions";
-import { redirect } from "next/navigation";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 const testimonials = [
   {
     quote:
@@ -68,9 +70,22 @@ const testimonials = [
   },
 ];
 
-export default async function HomePage() {
-  const user = await getLoggedInUser();
-  if (!user) redirect("/signup")
+export default function HomePage() {
+  const router = useRouter();
+
+  useEffect(() => {
+    const checkUser = async () => {
+      // Fetch the user data on the client side
+      const user = await getLoggedInUser();
+      
+      if (user) {
+        router.push('/homepage');
+      }
+    };
+
+    checkUser();
+  }, [router]);
+
   return (
     <div className=" bg-[url(/backgroundimage.webp)] container no-scrollbar">
       <Bglandingpage />
