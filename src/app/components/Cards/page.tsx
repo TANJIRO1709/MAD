@@ -80,6 +80,7 @@ const AceternityIcon = () => {
     </svg>
   );
 };
+ 
 const Icon = ({ className, ...rest }: any) => {
   return (
     <svg
